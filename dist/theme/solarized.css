@@ -15,25 +15,58 @@ html * {
  * GLOBAL STYLES
  *********************************************/
 .st-img {
-  transform: translate(-330px, -145px) scale(1.5); }
+  transform: translate(-280px, -135px) scale(1.5); }
 
 .nd-img {
-  transform: translate(-484px, -26px) scale(1.5); }
+  transform: translate(-435px, -37px) scale(1.5); }
 
 .rd-img {
-  transform: translate(-680px, 140px); }
+  transform: translate(-554px, 110px) scale(1.5); }
 
 .fourth-img {
-  transform: translate(-246px, -42px) scale(1.5); }
+  transform: translate(-200px, -42px) scale(1.5); }
 
 .fifth-img {
-  transform: scale(1.5) translate(490px, -240px); }
+  transform: scale(1.5) translate(460px, -230px); }
 
 .sixth-img {
-  transform: translate(440px, -388px) scale(1.5); }
+  transform: translate(410px, -378px) scale(1.5); }
 
 .seventh-img {
-  transform: scale(1.5) translate(110px, -144px); }
+  transform: scale(1.5) translate(80px, -134px); }
+
+.Eighth-img {
+  transform: scale(1.5) translate(50px, -130px); }
+
+.ninth-img {
+  transform: scale(1.5) translate(90px, -30px); }
+
+.st-cont {
+  transform: scale(1.5) translate(-40px, -50px); }
+
+.nd-cont {
+  transform: scale(1.5) translate(-35px, -89px); }
+
+.rd-cont {
+  transform: scale(1.5) translate(-30px, -50px); }
+
+.fourth-cont {
+  transform: scale(1.5) translate(-25px, -86px); }
+
+.fifth-cont {
+  transform: scale(1.5) translate(-20px, -50px); }
+
+.sixth-cont {
+  transform: scale(1.5) translate(-15px, -86px); }
+
+.seventh-cont {
+  transform: scale(1.5) translate(-10px, -50px); }
+
+.eighth-cont {
+  transform: scale(1.5) translate(-5px, -86px); }
+
+.ninth-cont {
+  transform: scale(1.5) translate(0px, -50px); }
 
 :root {
   --background-color: #fdf6e3;
