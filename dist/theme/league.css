@@ -13,6 +13,27 @@ section.has-light-background, section.has-light-background h1, section.has-light
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
+.st-img {
+  transform: translate(-330px, -145px) scale(1.5); }
+
+.nd-img {
+  transform: translate(-484px, -26px) scale(1.5); }
+
+.rd-img {
+  transform: translate(-680px, 140px); }
+
+.fourth-img {
+  transform: translate(-246px, -42px) scale(1.5); }
+
+.fifth-img {
+  transform: scale(1.5) translate(490px, -240px); }
+
+.sixth-img {
+  transform: translate(440px, -388px) scale(1.5); }
+
+.seventh-img {
+  transform: scale(1.5) translate(110px, -144px); }
+
 :root {
   --background-color: #2b2b2b;
   --main-font: Lato, sans-serif;
