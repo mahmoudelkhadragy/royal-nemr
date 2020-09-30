@@ -1,51 +1,51 @@
 @font-face {
     font-family: "MyriadPro-Bold";
-    src: url("../../../assets/fonts/MyriadPro-Bold.otf") format("otf"),
+    src: url("../../../assets/fonts/MyriadPro-Bold.otf") format("otf");
 }
 
 @font-face {
     font-family: "MyriadPro-BoldCond";
-    src: url("../../../assets/fonts/MyriadPro-BoldCond.otf") format("otf"),
+    src: url("../../../assets/fonts/MyriadPro-BoldCond.otf") format("otf");
 }
 
 @font-face {
     font-family: "MyriadPro-BoldIt";
-    src: url("../../../assets/fonts/MyriadPro-BoldIt.otf") format("otf"),
+    src: url("../../../assets/fonts/MyriadPro-BoldIt.otf") format("otf");
 }
 
 @font-face {
     font-family: "MyriadPro-Cond";
-    src: url("../../../assets/fonts/MyriadPro-Cond.otf") format("otf"),
+    src: url("../../../assets/fonts/MyriadPro-Cond.otf") format("otf");
 }
 
 @font-face {
     font-family: "MyriadPro-It";
-    src: url("../../../assets/fonts/MyriadPro-It.otf") format("otf"),
+    src: url("../../../assets/fonts/MyriadPro-It.otf") format("otf");
 }
 
 @font-face {
     font-family: "MyriadPro-Regular";
-    src: url("../../../assets/fonts/MyriadPro-Regular.otf") format("otf"),
+    src: url("../../../assets/fonts/MyriadPro-Regular.otf") format("otf");
 }
 
 @font-face {
     font-family: "MyriadPro-Semibold";
-    src: url("../../../assets/fonts/MyriadPro-Semibold.otf") format("otf"),
+    src: url("../../../assets/fonts/MyriadPro-Semibold.otf") format("otf");
 }
 
 @font-face {
     font-family: "MyriadPro-boldIt";
-    src: url("../../../assets/fonts/MyriadPro-SemiboldIt.otf") format("otf"),
+    src: url("../../../assets/fonts/MyriadPro-SemiboldIt.otf") format("otf");
 }
 
 @font-face {
     font-family: "Oswald-Regular";
-    src: url("../../../assets/fonts/Oswald-Regular.ttf") format("ttf"),
+    src: url("../../../assets/fonts/Oswald-Regular.ttf") format("ttf");
 }
 
 @font-face {
     font-family: "OpenSans-Light";
-    src: url("../../../assets/fonts/OpenSans-Light.ttf") format("ttf"),
+    src: url("../../../assets/fonts/OpenSans-Light.ttf") format("ttf");
 }
 
 // Base theme template for reveal.js
@@ -212,6 +212,446 @@ section {
     }
     .rd-slide-img-22 {
         transform: scale(1.5) translate(-239px, 115px);
+    }
+}
+
+section {
+    .slide-4-img-1 {
+        transform: scale(1.5) translate(0px, -30px);
+    }
+    .slide-4-img-2 {
+        transform: scale(1.5) translate(58px, -30px);
+    }
+    .slide-4-img-3 {
+        transform: scale(1.5) translate(-150px, -28px);
+    }
+    .slide-4-img-4 {
+        transform: scale(1.5) translate(260px, -20px);
+    }
+    .slide-4-img-5 {
+        transform: scale(1.5) translate(280px, -30px);
+    }
+    .slide-4-img-6 {
+        transform: scale(1.5) translate(-480px, 140px);
+    }
+    .slide-4-img-7 {
+        transform: scale(1.5) translate(-440px, 165px);
+    }
+    .slide-4-img-8 {
+        transform: scale(1.5) translate(-420px, 50px);
+    }
+    .slide-4-img-9 {
+        transform: scale(1.5) translate(405px, -14px);
+    }
+    .slide-4-img-10 {
+        transform: scale(1.5) translate(309px, 45px);
+    }
+    .slide-4-img-11 {
+        transform: scale(1.5) translate(250px, 100px);
+    }
+    .slide-4-img-12 {
+        transform: scale(1.5) translate(178px, 157px);
+    }
+    .slide-4-img-13 {
+        transform: scale(1.5) translate(266px, -68px);
+    }
+    .slide-4-img-14 {
+        transform: scale(1.5) translate(95px, -12px);
+    }
+    .slide-4-img-15 {
+        transform: scale(1.5) translate(-35px, 40px);
+    }
+    .slide-4-img-16 {
+        transform: scale(1.5) translate(-178px, 95px);
+    }
+    .slide-4-img-17 {
+        transform: scale(1.5) translate(234px, 93px);
+    }
+    .slide-4-img-18 {
+        transform: scale(1.5) translate(300px, 160px);
+    }
+    .slide-4-img-19 {
+        transform: scale(1.5) translate(320px, 160px);
+    }
+}
+
+section {
+    .slide-5-img-1 {
+        transform: scale(1.5) translate(0px, -30px);
+    }
+    .slide-5-img-2 {
+        transform: scale(1.5) translate(70px, -30px);
+    }
+    .slide-5-img-3 {
+        transform: scale(1.5) translate(-180px, -30px);
+    }
+    .slide-5-img-4 {
+        transform: scale(1.5) translate(200px, 5px);
+    }
+    .slide-5-img-5 {
+        transform: scale(1.5) translate(210px, -10px);
+    }
+    .slide-5-img-6 {
+        transform: scale(1.5) translate(-540px, 110px);
+    }
+    .slide-5-img-7 {
+        transform: scale(1.5) translate(-584px, 69px);
+    }
+    .slide-5-img-8 {
+        transform: scale(1.5) translate(287px, -28px);
+    }
+    .slide-5-img-9 {
+        transform: scale(1.5) translate(242px, 15px);
+    }
+    .slide-5-img-10 {
+        transform: scale(1.5) translate(197px, -27px);
+    }
+    .slide-5-img-11 {
+        transform: scale(1.5) translate(153px, 14px);
+    }
+    .slide-5-img-12 {
+        transform: scale(1.5) translate(-247px, 14px);
+    }
+    .slide-5-img-13 {
+        transform: scale(1.5) translate(-291px, 57px);
+    }
+    .slide-5-img-14 {
+        transform: scale(1.5) translate(-335px, 98px);
+    }
+    .slide-5-img-15 {
+        transform: scale(1.5) translate(-380px, 57px);
+    }
+    .slide-5-img-16 {
+        transform: scale(1.5) translate(168px, -42px);
+    }
+    .slide-5-img-17 {
+        transform: scale(1.5) translate(338px, -42px);
+    }
+    .slide-5-img-18 {
+        transform: scale(1.5) translate(-136px, -83px);
+    }
+    .slide-5-img-19 {
+        transform: scale(1.5) translate(37px, 0px);
+    }
+    .slide-5-img-20 {
+        transform: scale(1.5) translate(-250px, 85px);
+    }
+    .slide-5-img-21 {
+        transform: scale(1.5) translate(35px, 85px);
+    }
+}
+
+section {
+    .slide-6-img-1 {
+        transform: scale(1.5) translate(-90px, 0px);
+    }
+    .slide-6-img-2 {
+        transform: scale(1.5) translate(-40px, 0px);
+    }
+    .slide-6-img-3 {
+        transform: scale(1.5) translate(-210px, 0px);
+    }
+    .slide-6-img-4 {
+        transform: scale(1.5) translate(240px, 25px);
+    }
+    .slide-6-img-5 {
+        transform: scale(1.5) translate(250px, 10px);
+    }
+    .slide-6-img-6 {
+        transform: scale(1.5) translate(-510px, 130px);
+    }
+    .slide-6-img-7 {
+        transform: scale(1.5) translate(-600px, 260px);
+    }
+    .slide-6-img-8 {
+        transform: scale(1.5) translate(250px, 10px);
+    }
+    .slide-6-img-9 {
+        transform: scale(1.5) translate(-139.5px, 180px);
+    }
+    .slide-6-img-10 {
+        transform: scale(1.5) translate(242px, 20px);
+    }
+    .slide-6-img-11 {
+        transform: scale(1.5) translate(-145px, 70px);
+    }
+    .slide-6-img-12 {
+        transform: scale(1.5) translate(217px, -100px);
+    }
+    .slide-6-img-13 {
+        transform: scale(1.5) translate(-170px, -33px);
+    }
+    .slide-6-img-14 {
+        transform: scale(1.5) translate(199px, -35px);
+    }
+    .slide-6-img-15 {
+        transform: scale(1.5) translate(-111px, 18px);
+    }
+    .slide-6-img-16 {
+        transform: scale(1.5) translate(-100px, 87px);
+    }
+    .slide-6-img-17 {
+        transform: scale(1.5) translate(265px, 85px);
+    }
+}
+
+section {
+    .slide-7-img-1 {
+        transform: scale(1.5) translate(-40px, 0px);
+    }
+    .slide-7-img-2 {
+        transform: scale(1.5) translate(40px, 0px);
+    }
+    .slide-7-img-3 {
+        transform: scale(1.5) translate(-260px, 0px);
+    }
+    .slide-7-img-4 {
+        transform: scale(1.5) translate(40px, 20px);
+    }
+    .slide-7-img-5 {
+        transform: scale(1.5) translate(50px, 9px);
+    }
+    .slide-7-img-6 {
+        transform: scale(1.5) translate(-770px, 45px);
+    }
+    .slide-7-img-7 {
+        transform: scale(1.5) translate(122px, -43px);
+    }
+    .slide-7-img-8 {
+        transform: scale(1.5) translate(-92px, -40px);
+    }
+    .slide-7-img-9 {
+        transform: scale(1.5) translate(-340px, 10px);
+    }
+    .slide-7-img-10 {
+        transform: scale(1.5) translate(-341px, 24px);
+    }
+    .slide-7-img-11 {
+        transform: scale(1.5) translate(-495px, 80px);
+    }
+    .slide-7-img-12 {
+        transform: scale(1.5) translate(-814px, 155px);
+    }
+    .slide-7-img-13 {
+        transform: scale(1.5) translate(80px, 80px);
+    }
+    .slide-7-img-14 {
+        transform: scale(1.5) translate(82px, 165px);
+    }
+    .slide-7-img-15 {
+        transform: scale(1.5) translate(-260px, 165px);
+    }
+    .slide-7-img-16 {
+        transform: scale(1.5) translate(626px, -185px);
+    }
+    .slide-7-img-17 {
+        transform: scale(1.5) translate(441px, -100px);
+    }
+    .slide-7-img-18 {
+        transform: scale(1.5) translate(300px, -100px);
+    }
+    .slide-7-img-19 {
+        transform: scale(1.5) translate(168px, -98px);
+    }
+    .slide-7-img-20 {
+        transform: scale(1.5) translate(28px, -10px);
+    }
+    .slide-7-img-21 {
+        transform: scale(1.5) translate(-106px, -92px);
+    }
+    .slide-7-img-22 {
+        transform: scale(1.5) translate(-769px, 130px);
+    }
+    .slide-7-img-23 {
+        transform: scale(1.5) translate(-190px, 41px);
+    }
+    .slide-7-img-24 {
+        transform: scale(1.5) translate(-170px, 41px);
+    }
+    .slide-7-img-25 {
+        transform: scale(1.5) translate(330px, 27px);
+    }
+    .slide-7-img-26 {
+        transform: scale(1.5) translate(347px, 26px);
+    }
+}
+
+section {
+    .slide-8-img-1 {
+        transform: scale(1.5) translate(30px, 0px);
+    }
+    .slide-8-img-2 {
+        transform: scale(1.5) translate(110px, 0px);
+    }
+    .slide-8-img-3 {
+        transform: scale(1.5) translate(-187px, 0px);
+    }
+    .slide-8-img-4 {
+        transform: scale(1.5) translate(110px, 20px);
+    }
+    .slide-8-img-5 {
+        transform: scale(1.5) translate(120px, 10px);
+    }
+    .slide-8-img-6 {
+        transform: scale(1.5) translate(-610px, 110px);
+    }
+    .slide-8-img-7 {
+        transform: scale(1.5) translate(170px, -50px);
+    }
+    .slide-8-img-8 {
+        transform: scale(1.5) translate(-170px, 100px);
+    }
+    .slide-8-img-9 {
+        transform: scale(1.5) translate(-355px, 99px);
+    }
+    .slide-8-img-10 {
+        transform: scale(1.5) translate(-565px, 125px);
+    }
+    .slide-8-img-11 {
+        transform: scale(1.5) translate(-558px, 100px);
+        position: relative;
+        z-index: 1;
+    }
+    .slide-8-img-12 {
+        transform: scale(1.5) translate(-523px, 125px);
+    }
+    .slide-8-img-13 {
+        transform: scale(1.5) translate(-519px, 129px);
+        position: relative;
+        z-index: 1;
+    }
+    .slide-8-img-14 {
+        transform: scale(1.5) translate(-485px, 129px);
+    }
+    .slide-8-img-15 {
+        transform: scale(1.5) translate(-429px, 126px);
+    }
+    .slide-8-img-16 {
+        transform: scale(1.5) translate(-422px, 127px);
+        position: relative;
+        z-index: 1;
+    }
+    .slide-8-img-17 {
+        transform: scale(1.5) translate(-675px, 148px);
+    }
+    .slide-8-img-18 {
+        transform: scale(1.5) translate(-673px, 107px);
+    }
+    .slide-8-img-19 {
+        transform: scale(1.5) translate(-640px, 149px);
+    }
+    .slide-8-img-20 {
+        transform: scale(1.5) translate(-638px, 131px);
+    }
+    .slide-8-img-21 {
+        transform: scale(1.5) translate(-514px, 128px);
+    }
+    .slide-8-img-22 {
+        transform: scale(1.5) translate(-603px, 130px);
+    }
+    .slide-8-img-23 {
+        transform: scale(1.5) translate(-642px, 149px);
+    }
+    .slide-8-img-24 {
+        transform: scale(1.5) translate(-589px, 148px);
+    }
+    .slide-8-img-25 {
+        transform: scale(1.5) translate(5px, 90px);
+    }
+    .slide-8-img-26 {
+        transform: scale(1.5) translate(42px, 90px);
+    }
+    .slide-8-img-27 {
+        transform: scale(1.5) translate(80px, 90px);
+    }
+    .slide-8-img-28 {
+        transform: scale(1.5) translate(120px, 86px);
+    }
+    .slide-8-img-29 {
+        transform: scale(1.5) translate(-55px, 125px);
+    }
+    .slide-8-img-30 {
+        transform: scale(1.5) translate(-40px, 126px);
+    }
+    .slide-8-img-31 {
+        transform: scale(1.5) translate(180px, 70px);
+    }
+    .slide-8-img-32 {
+        transform: scale(1.5) translate(-73px, 113px);
+    }
+    .slide-8-img-33 {
+        transform: scale(1.5) translate(145px, -227px);
+    }
+    .slide-8-img-34 {
+        transform: scale(1.5) translate(-180px, 110px);
+    }
+    .slide-8-img-35 {
+        transform: scale(1.5) translate(-286px, -45px);
+        position: relative;
+        z-index: 1;
+    }
+    .slide-8-img-36 {
+        transform: scale(1.5) translate(-60px, -120px);
+    }
+    .slide-8-img-37 {
+        transform: scale(1.5) translate(-16px, 105px);
+    }
+    .slide-8-img-38 {
+        transform: scale(1.5) translate(5px, 105px);
+    }
+}
+
+section {
+    .slide-9-img-1 {
+        transform: scale(1.5) translate(-40px, 0px);
+    }
+    .slide-9-img-2 {
+        transform: scale(1.5) translate(37px, 0px);
+    }
+    .slide-9-img-3 {
+        transform: scale(1.5) translate(-250px, 0px);
+    }
+    .slide-9-img-4 {
+        transform: scale(1.5) translate(30px, 20px);
+    }
+    .slide-9-img-5 {
+        transform: scale(1.5) translate(40px, 10px);
+    }
+    .slide-9-img-6-1 {
+        transform: scale(1.5) translate(-730px, 90px);
+    }
+    .slide-9-img-6-2 {
+        transform: scale(1.5) translate(-745px, 140px);
+    }
+    .slide-9-img-6-3 {
+        transform: scale(1.5) translate(-760px, 190px);
+    }
+    .slide-9-img-6-4 {
+        transform: scale(1.5) translate(-775px, 240px);
+    }
+    .slide-9-img-7 {
+        transform: scale(1.5) translate(150px, 27px);
+    }
+    .slide-9-img-8 {
+        transform: scale(1.5) translate(-147px, 77px);
+    }
+    .slide-9-img-9 {
+        transform: scale(1.5) translate(-441px, 128px);
+    }
+    .slide-9-img-10 {
+        transform: scale(1.5) translate(120px, 72px);
+    }
+    .slide-9-img-11 {
+        transform: scale(1.5) translate(360px, 32px);
+    }
+    .slide-9-img-12 {
+        transform: scale(1.5) translate(340px, 20px);
+    }
+    .slide-9-img-13 {
+        transform: scale(1.5) translate(-330px, 208px);
+    }
+    .slide-9-img-14 {
+        transform: scale(1.5) translate(30px, 205px);
     }
 }
 
@@ -480,7 +920,7 @@ section {
 .reveal a {
     color: $linkColor;
     text-decoration: none;
-    transition: color .15s ease;
+    transition: color 0.15s ease;
 }
 
 .reveal a:hover {
@@ -491,7 +931,7 @@ section {
 
 .reveal .roll span:after {
     color: #fff;
-    background: darken( $linkColor, 15%);
+    background: darken($linkColor, 15%);
 }
 
 
@@ -505,7 +945,7 @@ section {
 }
 
 .reveal a .r-frame {
-    transition: all .15s linear;
+    transition: all 0.15s linear;
 }
 
 .reveal a:hover .r-frame {
