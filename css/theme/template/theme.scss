@@ -54,105 +54,89 @@
  * GLOBAL STYLES
  *********************************************/
 
-$yct: 326px;
-$ycb: 360px;
+$yct: 0px;
+$ycb: 0px;
 .slide-1 {
     a {
         img {
-            width: 5.5%;
+            position: relative;
+            width: 12%;
         }
     }
     .st-cont {
-        transform: scale(1.5) translate(-55px, $ycb);
+        top: 760px;
     }
     .nd-cont {
-        transform: scale(1.5) translate(-47px, $yct);
+        top: 680px;
+        right: 41px;
     }
     .rd-cont {
-        transform: scale(1.5) translate(-39px, $ycb);
+        top: 757px;
+        right: 82px;
     }
     .fourth-cont {
-        transform: scale(1.5) translate(-31px, $yct);
+        top: 680px;
+        right: 125px;
     }
     .fifth-cont {
-        transform: scale(1.5) translate(-23px, $ycb);
+        right: 171px;
+        top: 760px;
     }
     .sixth-cont {
-        transform: scale(1.5) translate(-15px, $yct);
+        right: 215px;
+        top: 680px;
     }
     .seventh-cont {
-        transform: scale(1.5) translate(-7px, $ycb);
+        right: 260px;
+        top: 760px;
     }
     .eighth-cont {
-        transform: scale(1.5) translate(1px, $yct);
+        right: -512px;
+        top: 486px;
     }
     .ninth-cont {
-        transform: scale(1.5) translate(9px, $ycb);
+        right: -465px;
+        top: 565px;
     }
 }
 
 .slide-2 {
-    zoom: .150;
+    height: 100vh;
+    width: 100wh;
+    img {
+        position: absolute;
+    }
     .s-2-img-1 {
-        transform: translate(420px, -215px);
+        width: 10%;
+        right: 1461px;
+        top: -169px;
     }
     .s-2-img-2 {
-        transform: translate(435px, -214px);
+        width: 42%;
+        top: -136px;
+        right: 850px;
     }
     .s-2-img-3 {
-        transform: translate(4950px, -45px);
+        width: 14%;
+        top: -151px;
+        left: 1121px;
     }
-    .s-2-img-4 {
-        transform: translate(4670px, -109px);
-    }
-    .s-2-img-5 {
-        transform: translate(-3877px, 372px);
-    }
-    .s-2-img-6 {
-        transform: translate(503px, 487px);
-    }
-    .s-2-img-7 {
-        transform: translate(660px, 575px);
-    }
-    .s-2-img-8 {
-        transform: translate(-1895px, 62px);
-    }
-    .s-2-img-9 {
-        transform: translate(-1019px, 115px);
-    }
-    .s-2-img-10 {
-        transform: translate(-2705px, 718px);
-    }
-    .s-2-img-11 {
-        transform: translate(-2598px, 690px);
-    }
-    .s-2-img-12 {
-        transform: translate(1046px, 2055px);
-    }
-    .s-2-img-13 {
-        transform: translate(-1371px, -85px);
-        position: absolute;
-        top: 8%;
-        right: 56%;
-    }
-    .s-2-img-14 {
-        transform: translate(641px, -2780px);
-    }
-    .s-2-img-15 {
-        transform: translate(-3402px, -1284px);
-    }
-    .s-2-img-16 {
-        transform: translate(-259px, -1382px);
-    }
-    .s-2-img-17 {
-        transform: translate(-6352px, -358px);
-    }
-    .s-2-img-18 {
-        transform: translate(4645px, -863px);
-    }
-    .s-2-img-19 {
-        transform: translate(-2524px, -130px);
-    }
+    .s-2-img-4 {}
+    .s-2-img-5 {}
+    .s-2-img-6 {}
+    .s-2-img-7 {}
+    .s-2-img-8 {}
+    .s-2-img-9 {}
+    .s-2-img-10 {}
+    .s-2-img-11 {}
+    .s-2-img-12 {}
+    .s-2-img-13 {}
+    .s-2-img-14 {}
+    .s-2-img-15 {}
+    .s-2-img-16 {}
+    .s-2-img-17 {}
+    .s-2-img-18 {}
+    .s-2-img-19 {}
 }
 
 .slide-3 {

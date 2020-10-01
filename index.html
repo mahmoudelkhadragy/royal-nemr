@@ -19,7 +19,7 @@
 <body>
     <div class="reveal">
         <div class="slides">
-            <section data-background-size="contain" class="slide-1" data-background-video-muted data-background-video="assets/slide1/Nemr E-brochur Intro.mp4">
+            <section data-background-size="contain" class="slide-1" data-background-video="assets/slide1/Nemr E-brochur Intro.mp4">
 
                 <a href="#/1"><img class="st-cont" src="assets/slide1/Controls/1.png" alt="" srcset=""></a>
                 <a href="#/2"><img class="nd-cont" src="assets/slide1/Controls/2.png" alt="" srcset=""></a>
@@ -226,7 +226,7 @@
                 <img class="slide-8-img-33" src="assets/slide8/33.png" alt="">
                 <img class="slide-8-img-34" src="assets/slide8/34.png" alt="">
                 <img class="slide-8-img-35" src="assets/slide8/35.png" alt="">
-                <img class="slide-8-img-36" src="assets/slide8/36.png" alt=""></a>
+                <img class="slide-8-img-36" src="assets/slide8/36.png" alt="">
                 <a href="#/6"> <img class="slide-8-img-37" src="assets/slide8/37.png" alt=""></a>
                 <a href="#/0"> <img class="slide-8-img-38" src="assets/slide8/38.png" alt=""></a>
                 <img class="slide-8-img-39" src="assets/slide8/39.png" alt="">
@@ -308,6 +308,7 @@
                 <a href="#/0"> <img class="slide-10-img-44" src="assets/slide10/44.png" alt=""></a>
 
             </section>
+
             <section data-background-size="100% 100%" data-background-image="assets/slide11/bg.png">
                 <img class="slide-11-img-1" src="assets/slide11/1.png" alt="">
                 <img class="slide-11-img-2" src="assets/slide11/2.png" alt="">
@@ -329,6 +330,7 @@
                 <a href="#/0"><img class="slide-11-img-18" src="assets/slide11/18.png" alt=""></a>
                 <a href="#/11"> <img class="slide-11-img-19" src="assets/slide11/19.png" alt=""></a>
             </section>
+
             <section data-background-size="100% 100%" data-background-image="assets/slide12/bg.png">
                 <img class="slide-12-img-1" src="assets/slide12/1.png" alt="">
                 <img class="slide-12-img-2" src="assets/slide12/2.png" alt="">
@@ -350,6 +352,7 @@
                 <a href="#/0"><img class="slide-12-img-18" src="assets/slide11/18.png" alt=""></a>
                 <a href="#/10"> <img class="slide-12-img-19" src="assets/slide11/19.png" alt=""></a>
             </section>
+
             <section data-background-size="100% 100%" data-background-image="assets/general/1.png">
                 <img class="slide-13-img-1" src="assets/slide13/1.png" alt="">
                 <img class="slide-13-img-2" src="assets/slide13/2.png" alt="">
@@ -391,13 +394,20 @@
         Reveal.initialize({
             hash: true,
             width: 1440,
-            hight: 1080,
+            height: 1080,
             margin: 0,
+            controls: false,
+            controlsTutorial: true,
+            slideNumber: true,
+            help: true,
+            autoPlayMedia: true,
+
             // Learn about plugins: https://revealjs.com/plugins/
             plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
         });
         Reveal.configure({
-            controls: false,
+
+
         })
     </script>
 </body>
