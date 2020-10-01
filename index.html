@@ -19,7 +19,7 @@
 <body>
     <div class="reveal">
         <div class="slides">
-            <section data-background-size="contain" data-background-video-muted data-background-video="assets/slide1/Nemr E-brochur Intro.mp4">
+            <section data-background-size="contain" class="slide-1" data-background-video-muted data-background-video="assets/slide1/Nemr E-brochur Intro.mp4">
 
                 <a href="#/1"><img class="st-cont" src="assets/slide1/Controls/1.png" alt="" srcset=""></a>
                 <a href="#/2"><img class="nd-cont" src="assets/slide1/Controls/2.png" alt="" srcset=""></a>
@@ -32,7 +32,7 @@
                 <a href="#/9"><img class="ninth-cont" src="assets/slide1/Controls/9.png" alt="" srcset=""></a>
 
             </section>
-            <section data-background-size="100% 100%" data-background-image="assets/general/1.png">
+            <section data-background-size="100% 100%" class="slide-2" data-background-image="assets/slide2/bg.png">
 
                 <img class="s-2-img-1" src="assets/slide2/1.png" alt="">
                 <img class="s-2-img-2" src="assets/slide2/2.png" alt="">
@@ -55,7 +55,7 @@
                 <img class="s-2-img-19" src="assets/slide2/19.png" alt="">
 
             </section>
-            <section data-background-size="100% 100%" data-background-image="assets/slide3/bg.png">
+            <section data-background-size="100% 100%" class="slide-3" data-background-image="assets/slide3/bg.png">
                 <img class="rd-slide-img-1" src="assets/slide3/1.png" alt="">
                 <img class="rd-slide-img-2" src="assets/slide3/2.png" alt="">
                 <img class="rd-slide-img-3" src="assets/slide3/3.png" alt="">
@@ -391,6 +391,7 @@
         Reveal.initialize({
             hash: true,
             width: 1440,
+            hight: 1080,
             margin: 0,
             // Learn about plugins: https://revealjs.com/plugins/
             plugins: [RevealMarkdown, RevealHighlight, RevealNotes]

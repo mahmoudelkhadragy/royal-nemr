@@ -56,7 +56,12 @@
 
 $yct: 326px;
 $ycb: 360px;
-section {
+.slide-1 {
+    a {
+        img {
+            width: 5.5%;
+        }
+    }
     .st-cont {
         transform: scale(1.5) translate(-55px, $ycb);
     }
@@ -86,67 +91,71 @@ section {
     }
 }
 
-section {
+.slide-2 {
+    zoom: .150;
     .s-2-img-1 {
-        transform: scale(1.5) translate(-80px, -15px);
+        transform: translate(420px, -215px);
     }
     .s-2-img-2 {
-        transform: scale(1.5) translate(-37px, -15px);
+        transform: translate(435px, -214px);
     }
     .s-2-img-3 {
-        transform: scale(1.5) translate(440px, 25px);
+        transform: translate(4950px, -45px);
     }
     .s-2-img-4 {
-        transform: scale(1.5) translate(450px, 10px);
+        transform: translate(4670px, -109px);
     }
     .s-2-img-5 {
-        transform: scale(1.5) translate(-294px, 52px);
+        transform: translate(-3877px, 372px);
     }
     .s-2-img-6 {
-        transform: scale(1.5) translate(-541px, 190px);
+        transform: translate(503px, 487px);
     }
     .s-2-img-7 {
-        transform: scale(1.5) translate(360px, 75px);
+        transform: translate(660px, 575px);
     }
     .s-2-img-8 {
-        transform: scale(1.5) translate(156px, 22px);
+        transform: translate(-1895px, 62px);
     }
     .s-2-img-9 {
-        transform: scale(1.5) translate(265px, 25px);
+        transform: translate(-1019px, 115px);
     }
     .s-2-img-10 {
-        transform: scale(1.5) translate(103px, 93px);
+        transform: translate(-2705px, 718px);
     }
     .s-2-img-11 {
-        transform: scale(1.5) translate(132px, 90px);
+        transform: translate(-2598px, 690px);
     }
     .s-2-img-12 {
-        transform: scale(1.5) translate(436px, 255px);
+        transform: translate(1046px, 2055px);
     }
     .s-2-img-13 {
-        transform: scale(1.5) translate(-371px, -150px);
+        transform: translate(-1371px, -85px);
+        position: absolute;
+        top: 8%;
+        right: 56%;
     }
     .s-2-img-14 {
-        transform: scale(1.5) translate(-459px, -80px);
+        transform: translate(641px, -2780px);
     }
     .s-2-img-15 {
-        transform: scale(1.5) translate(185px, -104px);
+        transform: translate(-3402px, -1284px);
     }
     .s-2-img-16 {
-        transform: scale(1.5) translate(550px, -104px);
+        transform: translate(-259px, -1382px);
     }
     .s-2-img-17 {
-        transform: scale(1.5) translate(-42px, 2px);
+        transform: translate(-6352px, -358px);
     }
     .s-2-img-18 {
-        transform: scale(1.5) translate(310px, 27px);
+        transform: translate(4645px, -863px);
     }
     .s-2-img-19 {
-        transform: scale(1.5) translate(-324px, 136px);
+        transform: translate(-2524px, -130px);
     }
 }
 
-section {
+.slide-3 {
     .rd-slide-img-1 {
         transform: scale(1.5) translate(0px, 0px);
     }

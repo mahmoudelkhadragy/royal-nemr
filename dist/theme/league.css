@@ -53,154 +53,144 @@ section.has-light-background, section.has-light-background h1, section.has-light
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
-section .st-cont {
+.slide-1 a img {
+  width: 5.5%; }
+
+.slide-1 .st-cont {
   transform: scale(1.5) translate(-55px, 360px); }
 
-section .nd-cont {
+.slide-1 .nd-cont {
   transform: scale(1.5) translate(-47px, 326px); }
 
-section .rd-cont {
+.slide-1 .rd-cont {
   transform: scale(1.5) translate(-39px, 360px); }
 
-section .fourth-cont {
+.slide-1 .fourth-cont {
   transform: scale(1.5) translate(-31px, 326px); }
 
-section .fifth-cont {
+.slide-1 .fifth-cont {
   transform: scale(1.5) translate(-23px, 360px); }
 
-section .sixth-cont {
+.slide-1 .sixth-cont {
   transform: scale(1.5) translate(-15px, 326px); }
 
-section .seventh-cont {
+.slide-1 .seventh-cont {
   transform: scale(1.5) translate(-7px, 360px); }
 
-section .eighth-cont {
+.slide-1 .eighth-cont {
   transform: scale(1.5) translate(1px, 326px); }
 
-section .ninth-cont {
+.slide-1 .ninth-cont {
   transform: scale(1.5) translate(9px, 360px); }
 
-section .s-2-img-1 {
-  transform: scale(1.5) translate(-80px, -15px); }
+.slide-2 {
+  zoom: .150; }
+  .slide-2 .s-2-img-1 {
+    transform: translate(420px, -215px); }
+  .slide-2 .s-2-img-2 {
+    transform: translate(435px, -214px); }
+  .slide-2 .s-2-img-3 {
+    transform: translate(4950px, -45px); }
+  .slide-2 .s-2-img-4 {
+    transform: translate(4670px, -109px); }
+  .slide-2 .s-2-img-5 {
+    transform: translate(-3877px, 372px); }
+  .slide-2 .s-2-img-6 {
+    transform: translate(503px, 487px); }
+  .slide-2 .s-2-img-7 {
+    transform: translate(660px, 575px); }
+  .slide-2 .s-2-img-8 {
+    transform: translate(-1895px, 62px); }
+  .slide-2 .s-2-img-9 {
+    transform: translate(-1019px, 115px); }
+  .slide-2 .s-2-img-10 {
+    transform: translate(-2705px, 718px); }
+  .slide-2 .s-2-img-11 {
+    transform: translate(-2598px, 690px); }
+  .slide-2 .s-2-img-12 {
+    transform: translate(1046px, 2055px); }
+  .slide-2 .s-2-img-13 {
+    transform: translate(-1371px, -85px);
+    position: absolute;
+    top: 8%;
+    right: 56%; }
+  .slide-2 .s-2-img-14 {
+    transform: translate(641px, -2780px); }
+  .slide-2 .s-2-img-15 {
+    transform: translate(-3402px, -1284px); }
+  .slide-2 .s-2-img-16 {
+    transform: translate(-259px, -1382px); }
+  .slide-2 .s-2-img-17 {
+    transform: translate(-6352px, -358px); }
+  .slide-2 .s-2-img-18 {
+    transform: translate(4645px, -863px); }
+  .slide-2 .s-2-img-19 {
+    transform: translate(-2524px, -130px); }
 
-section .s-2-img-2 {
-  transform: scale(1.5) translate(-37px, -15px); }
-
-section .s-2-img-3 {
-  transform: scale(1.5) translate(440px, 25px); }
-
-section .s-2-img-4 {
-  transform: scale(1.5) translate(450px, 10px); }
-
-section .s-2-img-5 {
-  transform: scale(1.5) translate(-294px, 52px); }
-
-section .s-2-img-6 {
-  transform: scale(1.5) translate(-541px, 190px); }
-
-section .s-2-img-7 {
-  transform: scale(1.5) translate(360px, 75px); }
-
-section .s-2-img-8 {
-  transform: scale(1.5) translate(156px, 22px); }
-
-section .s-2-img-9 {
-  transform: scale(1.5) translate(265px, 25px); }
-
-section .s-2-img-10 {
-  transform: scale(1.5) translate(103px, 93px); }
-
-section .s-2-img-11 {
-  transform: scale(1.5) translate(132px, 90px); }
-
-section .s-2-img-12 {
-  transform: scale(1.5) translate(436px, 255px); }
-
-section .s-2-img-13 {
-  transform: scale(1.5) translate(-371px, -150px); }
-
-section .s-2-img-14 {
-  transform: scale(1.5) translate(-459px, -80px); }
-
-section .s-2-img-15 {
-  transform: scale(1.5) translate(185px, -104px); }
-
-section .s-2-img-16 {
-  transform: scale(1.5) translate(550px, -104px); }
-
-section .s-2-img-17 {
-  transform: scale(1.5) translate(-42px, 2px); }
-
-section .s-2-img-18 {
-  transform: scale(1.5) translate(310px, 27px); }
-
-section .s-2-img-19 {
-  transform: scale(1.5) translate(-324px, 136px); }
-
-section .rd-slide-img-1 {
+.slide-3 .rd-slide-img-1 {
   transform: scale(1.5) translate(0px, 0px); }
 
-section .rd-slide-img-2 {
+.slide-3 .rd-slide-img-2 {
   transform: scale(1.5) translate(58px, 0px); }
 
-section .rd-slide-img-3 {
+.slide-3 .rd-slide-img-3 {
   transform: scale(1.5) translate(470px, 10px); }
 
-section .rd-slide-img-4 {
+.slide-3 .rd-slide-img-4 {
   transform: scale(1.5) translate(480px, 0px); }
 
-section .rd-slide-img-5 {
+.slide-3 .rd-slide-img-5 {
   transform: scale(1.5) translate(-260px, 110px); }
 
-section .rd-slide-img-6 {
+.slide-3 .rd-slide-img-6 {
   transform: scale(1.5) translate(-405px, 155px); }
 
-section .rd-slide-img-7 {
+.slide-3 .rd-slide-img-7 {
   transform: scale(1.5) translate(-314px, 153px); }
 
-section .rd-slide-img-8 {
+.slide-3 .rd-slide-img-8 {
   transform: scale(1.5) translate(-462px, 200px); }
 
-section .rd-slide-img-9 {
+.slide-3 .rd-slide-img-9 {
   transform: scale(1.5) translate(-608px, 245px); }
 
-section .rd-slide-img-10 {
+.slide-3 .rd-slide-img-10 {
   transform: scale(1.5) translate(-517px, 243px); }
 
-section .rd-slide-img-11 {
+.slide-3 .rd-slide-img-11 {
   transform: scale(1.5) translate(-664px, 290px); }
 
-section .rd-slide-img-12 {
+.slide-3 .rd-slide-img-12 {
   transform: scale(1.5) translate(383px, 100px); }
 
-section .rd-slide-img-13 {
+.slide-3 .rd-slide-img-13 {
   transform: scale(1.5) translate(326px, 129px); }
 
-section .rd-slide-img-14 {
+.slide-3 .rd-slide-img-14 {
   transform: scale(1.5) translate(44px, 165px); }
 
-section .rd-slide-img-15 {
+.slide-3 .rd-slide-img-15 {
   transform: scale(1.5) translate(-84px, 194px); }
 
-section .rd-slide-img-16 {
+.slide-3 .rd-slide-img-16 {
   transform: scale(1.5) translate(300px, 0px); }
 
-section .rd-slide-img-17 {
+.slide-3 .rd-slide-img-17 {
   transform: scale(1.5) translate(354px, 142px); }
 
-section .rd-slide-img-18 {
+.slide-3 .rd-slide-img-18 {
   transform: scale(1.5) translate(467px, 255px); }
 
-section .rd-slide-img-19 {
+.slide-3 .rd-slide-img-19 {
   transform: scale(1.5) translate(485px, 255px); }
 
-section .rd-slide-img-20 {
+.slide-3 .rd-slide-img-20 {
   transform: scale(1.5) translate(-283px, -123px); }
 
-section .rd-slide-img-21 {
+.slide-3 .rd-slide-img-21 {
   transform: scale(1.5) translate(-441px, 227px); }
 
-section .rd-slide-img-22 {
+.slide-3 .rd-slide-img-22 {
   transform: scale(1.5) translate(-239px, 115px); }
 
 section .slide-4-img-1 {
