@@ -102,9 +102,9 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
     right: 1581px;
     top: 21px; }
   .slide-2 .s-2-img-2 {
-    width: 604px;
-    top: 50px;
-    right: 970px; }
+    height: 96px;
+    top: 51px;
+    right: 954px; }
   .slide-2 .s-2-img-3 {
     width: 240px;
     top: 59px;
@@ -173,71 +173,94 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
     top: 979px;
     right: 241px; }
 
-.slide-3 .rd-slide-img-1 {
-  transform: scale(1.5) translate(0px, 0px); }
-
-.slide-3 .rd-slide-img-2 {
-  transform: scale(1.5) translate(58px, 0px); }
-
-.slide-3 .rd-slide-img-3 {
-  transform: scale(1.5) translate(470px, 10px); }
-
-.slide-3 .rd-slide-img-4 {
-  transform: scale(1.5) translate(480px, 0px); }
-
-.slide-3 .rd-slide-img-5 {
-  transform: scale(1.5) translate(-260px, 110px); }
-
-.slide-3 .rd-slide-img-6 {
-  transform: scale(1.5) translate(-405px, 155px); }
-
-.slide-3 .rd-slide-img-7 {
-  transform: scale(1.5) translate(-314px, 153px); }
-
-.slide-3 .rd-slide-img-8 {
-  transform: scale(1.5) translate(-462px, 200px); }
-
-.slide-3 .rd-slide-img-9 {
-  transform: scale(1.5) translate(-608px, 245px); }
-
-.slide-3 .rd-slide-img-10 {
-  transform: scale(1.5) translate(-517px, 243px); }
-
-.slide-3 .rd-slide-img-11 {
-  transform: scale(1.5) translate(-664px, 290px); }
-
-.slide-3 .rd-slide-img-12 {
-  transform: scale(1.5) translate(383px, 100px); }
-
-.slide-3 .rd-slide-img-13 {
-  transform: scale(1.5) translate(326px, 129px); }
-
-.slide-3 .rd-slide-img-14 {
-  transform: scale(1.5) translate(44px, 165px); }
-
-.slide-3 .rd-slide-img-15 {
-  transform: scale(1.5) translate(-84px, 194px); }
-
-.slide-3 .rd-slide-img-16 {
-  transform: scale(1.5) translate(300px, 0px); }
-
-.slide-3 .rd-slide-img-17 {
-  transform: scale(1.5) translate(354px, 142px); }
-
-.slide-3 .rd-slide-img-18 {
-  transform: scale(1.5) translate(467px, 255px); }
-
-.slide-3 .rd-slide-img-19 {
-  transform: scale(1.5) translate(485px, 255px); }
-
-.slide-3 .rd-slide-img-20 {
-  transform: scale(1.5) translate(-283px, -123px); }
-
-.slide-3 .rd-slide-img-21 {
-  transform: scale(1.5) translate(-441px, 227px); }
-
-.slide-3 .rd-slide-img-22 {
-  transform: scale(1.5) translate(-239px, 115px); }
+.slide-3 {
+  height: 1080px;
+  width: 1440px; }
+  .slide-3 img {
+    position: absolute; }
+  .slide-3 a {
+    position: initial; }
+  .slide-3 .rd-slide-img-1 {
+    width: 142px;
+    right: 1581px;
+    top: 21px; }
+  .slide-3 .rd-slide-img-2 {
+    height: 96px;
+    top: 53px;
+    right: 716px; }
+  .slide-3 .rd-slide-img-3 {
+    width: 240px;
+    top: 59px;
+    left: 1221px; }
+  .slide-3 .rd-slide-img-4 {
+    width: 450px;
+    right: -379px;
+    top: -10px; }
+  .slide-3 .rd-slide-img-5 {
+    width: 250px;
+    top: 230px;
+    right: 1010px; }
+  .slide-3 .rd-slide-img-6 {
+    width: 250px;
+    top: 345px;
+    right: 1215px; }
+  .slide-3 .rd-slide-img-7 {
+    width: 250px;
+    top: 345px;
+    right: 807px; }
+  .slide-3 .rd-slide-img-8 {
+    width: 250px;
+    top: 465px;
+    right: 1010px; }
+  .slide-3 .rd-slide-img-9 {
+    width: 250px;
+    top: 578px;
+    right: 1215px; }
+  .slide-3 .rd-slide-img-10 {
+    width: 250px;
+    top: 578px;
+    right: 805px; }
+  .slide-3 .rd-slide-img-11 {
+    width: 250px;
+    right: 1010px;
+    top: 700px; }
+  .slide-3 .rd-slide-img-12 {
+    width: 440px;
+    top: 440px; }
+  .slide-3 .rd-slide-img-13 {
+    top: 540px;
+    width: 970px; }
+  .slide-3 .rd-slide-img-14 {
+    top: 610px;
+    right: 140px;
+    width: 580px; }
+  .slide-3 .rd-slide-img-15 {
+    width: 950px;
+    top: 700px; }
+  .slide-3 .rd-slide-img-16 {
+    top: 620px;
+    width: 500px;
+    right: 162px; }
+  .slide-3 .rd-slide-img-17 {
+    top: 712px;
+    width: 870px;
+    right: -209px; }
+  .slide-3 .rd-slide-img-18 {
+    right: 739px;
+    width: 830px;
+    top: 71px; }
+  .slide-3 .rd-slide-img-19 {
+    top: 934px;
+    right: 1045px;
+    width: 180px; }
+  .slide-3 .rd-slide-img-20 {
+    width: 150px;
+    top: 905px;
+    right: -162px; }
+  .slide-3 .rd-slide-img-21 {
+    top: 905px;
+    width: 150px;
+    right: -320px; }
 
 section .slide-4-img-1 {
   transform: scale(1.5) translate(0px, -30px); }
