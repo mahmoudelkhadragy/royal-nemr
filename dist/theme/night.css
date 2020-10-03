@@ -531,8 +531,8 @@ section.has-light-background, section.has-light-background h1, section.has-light
     right: -341px; }
 
 .slide-7 {
-  height: 1080px;
-  width: 1440px; }
+  height: 100%;
+  width: 100%; }
   .slide-7 img {
     position: absolute; }
   .slide-7 a {
