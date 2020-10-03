@@ -495,14 +495,24 @@ section.has-light-background, section.has-light-background h1, section.has-light
     width: 350px;
     animation-name: example-logo;
     animation-duration: 1s; }
+
+@keyframes slide-in-s6-img-6 {
+  from {
+    left: -634px; }
+  to {
+    left: -230px; } }
   .slide-6 .slide-6-img-6 {
     width: 300px;
     top: 270px;
-    left: -230px; }
+    left: -230px;
+    animation-name: slide-in-s6-img-6;
+    animation-duration: 1s; }
   .slide-6 .slide-6-img-7 {
     width: 300px;
     top: 600px;
-    left: -230px; }
+    left: -230px;
+    animation-name: slide-in-s6-img-6;
+    animation-duration: 1s; }
   .slide-6 .slide-6-img-8 {
     top: 670px;
     right: 20px; }
@@ -524,12 +534,14 @@ section.has-light-background, section.has-light-background h1, section.has-light
     left: 92px; }
   .slide-6 .slide-6-img-14 {
     top: 255px;
-    left: 92px; }
+    left: 92px;
+    width: 1280px; }
   .slide-6 .slide-6-img-15 {
     top: 405px;
     right: -20px; }
   .slide-6 .slide-6-img-16 {
     left: 92px;
+    width: 1290px;
     top: 526px; }
   .slide-6 .slide-6-img-17 {
     width: 145px;
@@ -743,58 +755,122 @@ section.has-light-background, section.has-light-background h1, section.has-light
     width: 30px;
     top: 640px;
     left: -57px; }
+
+@keyframes expand-s8-img-17 {
+  from {
+    height: 0; }
+  to {
+    height: 283px; } }
   .slide-8 .slide-8-img-17 {
     width: 47px;
     left: -14px;
-    bottom: 290px; }
+    bottom: 290px;
+    animation-name: expand-s8-img-17;
+    animation-duration: 1s; }
   .slide-8 .slide-8-img-18 {
     width: 40px;
     top: 589px;
     left: -11px; }
+
+@keyframes expand-s8-img-19 {
+  from {
+    height: 0; }
+  to {
+    height: 164px; } }
   .slide-8 .slide-8-img-19 {
     width: 47px;
     bottom: 290px;
-    left: 165px; }
+    left: 165px;
+    animation-name: expand-s8-img-19;
+    animation-duration: 1s; }
   .slide-8 .slide-8-img-20 {
     width: 40px;
     top: 649px;
     left: 295px; }
+
+@keyframes expand-s8-img-21 {
+  from {
+    height: 0; }
+  to {
+    height: 191px; } }
   .slide-8 .slide-8-img-21 {
     width: 47px;
     bottom: 290px;
-    left: 345px; }
+    left: 345px;
+    animation-name: expand-s8-img-21;
+    animation-duration: 1s; }
   .slide-8 .slide-8-img-22 {
     width: 40px;
     top: 649px;
     left: 348px; }
+
+@keyframes expand-s8-img-23 {
+  from {
+    height: 0; }
+  to {
+    height: 175px; } }
   .slide-8 .slide-8-img-23 {
     width: 47px;
     bottom: 290px;
-    left: 518px; }
+    left: 518px;
+    animation-name: expand-s8-img-23;
+    animation-duration: 1s; }
   .slide-8 .slide-8-img-24 {
     width: 40px;
     top: 652px;
     left: 522px; }
+
+@keyframes expand-s8-img-25 {
+  from {
+    height: 0; }
+  to {
+    height: 75px; } }
   .slide-8 .slide-8-img-25 {
     width: 47px;
     bottom: 290px;
-    left: -66px; }
+    left: -66px;
+    animation-name: expand-s8-img-25;
+    animation-duration: 1s; }
+
+@keyframes expand-s8-img-26 {
+  from {
+    height: 0; }
+  to {
+    height: 77px; } }
   .slide-8 .slide-8-img-26 {
     width: 47px;
     bottom: 290px;
-    left: 114px; }
+    left: 114px;
+    animation-name: expand-s8-img-26;
+    animation-duration: 1s; }
+
+@keyframes expand-s8-img-27 {
+  from {
+    height: 0; }
+  to {
+    height: 80px; } }
   .slide-8 .slide-8-img-27 {
     width: 47px;
     bottom: 290px;
-    left: 290px; }
+    left: 290px;
+    animation-name: expand-s8-img-27;
+    animation-duration: 1s; }
   .slide-8 .slide-8-img-28 {
     width: 25px;
     top: 646px;
     left: 478px; }
+
+@keyframes expand-s8-img-29 {
+  from {
+    height: 0; }
+  to {
+    height: 84px; } }
   .slide-8 .slide-8-img-29 {
     width: 47px;
     bottom: 290px;
-    left: 467px; }
+    left: 467px;
+    animation-name: expand-s8-img-29;
+    animation-duration: 1s; }
   .slide-8 .slide-8-img-30 {
     width: 40px;
     top: 650px;
