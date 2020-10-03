@@ -695,75 +695,128 @@ section.has-light-background, section.has-light-background h1, section.has-light
     animation-name: example-logo;
     animation-duration: 1s; }
   .slide-8 .slide-8-img-6 {
-    display: none; }
+    left: -60px;
+    top: 322px;
+    height: 65px; }
   .slide-8 .slide-8-img-7 {
-    display: none; }
+    width: 730px;
+    left: -120px;
+    bottom: 290px; }
   .slide-8 .slide-8-img-8 {
-    display: none; }
+    width: 633px;
+    bottom: 291px;
+    left: -67px; }
   .slide-8 .slide-8-img-9 {
-    display: none; }
+    left: -155px;
+    top: 181px; }
   .slide-8 .slide-8-img-10 {
-    display: none; }
+    left: -72px;
+    width: 110px;
+    bottom: 240px; }
   .slide-8 .slide-8-img-11 {
-    display: none;
-    position: relative;
-    z-index: 1; }
+    left: 109px;
+    width: 110px;
+    bottom: 236px; }
   .slide-8 .slide-8-img-12 {
-    display: none; }
+    left: 290px;
+    width: 110px;
+    bottom: 239px; }
   .slide-8 .slide-8-img-13 {
-    display: none;
-    position: relative;
-    z-index: 1; }
+    left: 460px;
+    width: 110px;
+    bottom: 260px; }
   .slide-8 .slide-8-img-14 {
-    display: none; }
+    left: -94px;
+    top: 191px;
+    height: 100px; }
   .slide-8 .slide-8-img-15 {
-    display: none; }
+    bottom: 27px;
+    left: -197px;
+    height: 50px; }
   .slide-8 .slide-8-img-16 {
-    display: none;
-    position: relative;
-    z-index: 1; }
+    width: 30px;
+    top: 640px;
+    left: -57px; }
   .slide-8 .slide-8-img-17 {
-    display: none; }
+    width: 47px;
+    left: -14px;
+    bottom: 290px; }
   .slide-8 .slide-8-img-18 {
-    display: none; }
+    width: 40px;
+    top: 589px;
+    left: -11px; }
   .slide-8 .slide-8-img-19 {
-    display: none; }
+    width: 47px;
+    bottom: 290px;
+    left: 165px; }
   .slide-8 .slide-8-img-20 {
-    display: none; }
+    width: 40px;
+    top: 649px;
+    left: 295px; }
   .slide-8 .slide-8-img-21 {
-    display: none; }
+    width: 47px;
+    bottom: 290px;
+    left: 345px; }
   .slide-8 .slide-8-img-22 {
-    display: none; }
+    width: 40px;
+    top: 649px;
+    left: 348px; }
   .slide-8 .slide-8-img-23 {
-    display: none; }
+    width: 47px;
+    bottom: 290px;
+    left: 518px; }
   .slide-8 .slide-8-img-24 {
-    display: none; }
+    width: 40px;
+    top: 652px;
+    left: 522px; }
   .slide-8 .slide-8-img-25 {
-    display: none; }
+    width: 47px;
+    bottom: 290px;
+    left: -66px; }
   .slide-8 .slide-8-img-26 {
-    display: none; }
+    width: 47px;
+    bottom: 290px;
+    left: 114px; }
   .slide-8 .slide-8-img-27 {
-    display: none; }
+    width: 47px;
+    bottom: 290px;
+    left: 290px; }
   .slide-8 .slide-8-img-28 {
-    display: none; }
+    width: 25px;
+    top: 646px;
+    left: 478px; }
   .slide-8 .slide-8-img-29 {
-    display: none; }
+    width: 47px;
+    bottom: 290px;
+    left: 467px; }
   .slide-8 .slide-8-img-30 {
-    display: none; }
+    width: 40px;
+    top: 650px;
+    left: 117px; }
   .slide-8 .slide-8-img-31 {
-    display: none; }
+    height: 110px;
+    top: 680px;
+    left: 780px; }
   .slide-8 .slide-8-img-32 {
-    display: none; }
+    height: 82px;
+    top: 790px;
+    left: 770px; }
   .slide-8 .slide-8-img-33 {
-    display: none; }
+    width: 40px;
+    top: 660px;
+    left: 169px; }
   .slide-8 .slide-8-img-34 {
-    display: none; }
+    left: 150px;
+    height: 60px;
+    bottom: 130px; }
   .slide-8 .slide-8-img-35 {
-    display: none;
-    position: relative;
-    z-index: 1; }
+    left: 119px;
+    height: 54px;
+    bottom: 136px; }
   .slide-8 .slide-8-img-36 {
-    display: none; }
+    height: 350px;
+    right: -230px;
+    bottom: 360px; }
   .slide-8 .slide-8-img-37 {
     width: 145px;
     top: 910px;
@@ -880,83 +933,180 @@ section.has-light-background, section.has-light-background h1, section.has-light
     animation-name: example-logo;
     animation-duration: 1s; }
   .slide-10 .slide-10-img-6 {
-    display: none; }
+    height: 60px;
+    top: 210px;
+    left: 70px; }
   .slide-10 .slide-10-img-7 {
-    display: none; }
+    width: 230px;
+    top: 260px;
+    left: 840px; }
   .slide-10 .slide-10-img-8 {
-    display: none; }
+    width: 218px;
+    top: 290px;
+    left: 840px; }
   .slide-10 .slide-10-img-9 {
-    display: none; }
+    width: 1000px;
+    top: 350px;
+    left: -50px; }
   .slide-10 .slide-10-img-10 {
-    display: none; }
+    top: 351px;
+    left: -30px;
+    width: 944px; }
   .slide-10 .slide-10-img-11 {
-    display: none; }
+    bottom: 474px;
+    width: 28px;
+    left: 348px; }
   .slide-10 .slide-10-img-12 {
-    display: none; }
+    bottom: 474px;
+    width: 28px;
+    left: 258px; }
   .slide-10 .slide-10-img-13 {
-    display: none; }
+    width: 76px;
+    top: 580px;
+    left: 210px; }
   .slide-10 .slide-10-img-14 {
-    display: none; }
+    width: 76px;
+    top: 580px;
+    left: 346px; }
   .slide-10 .slide-10-img-15 {
-    display: none; }
+    width: 121px;
+    top: 573px;
+    left: 442px; }
   .slide-10 .slide-10-img-16 {
-    display: none; }
+    top: 566px;
+    width: 28px;
+    left: 7px; }
   .slide-10 .slide-10-img-17 {
-    display: none; }
+    width: 25px;
+    top: 483px;
+    left: -27px;
+    z-index: 1; }
   .slide-10 .slide-10-img-18 {
-    display: none; }
+    width: 27px;
+    top: 483px;
+    left: 97px;
+    z-index: 1; }
   .slide-10 .slide-10-img-19 {
-    display: none; }
+    width: 27px;
+    top: 583px;
+    left: 6px;
+    z-index: 1; }
   .slide-10 .slide-10-img-20 {
-    display: none; }
+    top: 566px;
+    width: 28px;
+    left: 133px; }
   .slide-10 .slide-10-img-21 {
-    display: none; }
+    top: 551px;
+    width: 28px;
+    left: 222px; }
   .slide-10 .slide-10-img-22 {
-    display: none; }
+    width: 26px;
+    top: 531px;
+    left: 222px;
+    z-index: 1; }
   .slide-10 .slide-10-img-23 {
-    display: none; }
+    bottom: 474px;
+    width: 28px;
+    left: 384px; }
   .slide-10 .slide-10-img-24 {
-    display: none; }
+    bottom: 474px;
+    width: 28px;
+    left: 474px; }
   .slide-10 .slide-10-img-25 {
-    display: none; }
+    bottom: 474px;
+    width: 28px;
+    left: 510px; }
   .slide-10 .slide-10-img-26 {
-    display: none; }
+    bottom: 474px;
+    width: 28px;
+    left: 725px; }
   .slide-10 .slide-10-img-27 {
-    display: none; }
+    top: 566px;
+    width: 28px;
+    left: 760px; }
   .slide-10 .slide-10-img-28 {
-    display: none; }
+    bottom: 474px;
+    width: 28px;
+    left: 600px; }
   .slide-10 .slide-10-img-29 {
-    display: none; }
+    top: 565px;
+    width: 28px;
+    left: 635px; }
   .slide-10 .slide-10-img-30 {
-    display: none; }
+    bottom: 474px;
+    width: 28px;
+    left: 851px; }
   .slide-10 .slide-10-img-31 {
-    display: none; }
+    top: 566px;
+    width: 28px;
+    left: 887px; }
   .slide-10 .slide-10-img-32 {
-    display: none; }
+    width: 108px;
+    top: 756px;
+    left: 716px;
+    z-index: 1; }
   .slide-10 .slide-10-img-33 {
-    display: none; }
+    width: 108px;
+    top: 756px;
+    left: 592px;
+    z-index: 1; }
   .slide-10 .slide-10-img-34 {
-    display: none; }
+    width: 108px;
+    top: 756px;
+    left: 842px;
+    z-index: 1; }
   .slide-10 .slide-10-img-35 {
-    display: none; }
+    width: 108px;
+    top: 756px;
+    left: 94px;
+    z-index: 1; }
   .slide-10 .slide-10-img-36 {
-    display: none; }
+    width: 108px;
+    top: 756px;
+    left: -33px;
+    z-index: 1; }
   .slide-10 .slide-10-img-37 {
-    display: none; }
+    width: 128px;
+    top: 386px;
+    left: 817px;
+    z-index: 1; }
   .slide-10 .slide-10-img-38 {
-    display: none; }
+    width: 428px;
+    top: 310px;
+    left: 1127px;
+    z-index: 1; }
   .slide-10 .slide-10-img-39 {
-    display: none; }
+    width: 328px;
+    top: 400px;
+    left: 1127px;
+    z-index: 1; }
   .slide-10 .slide-10-img-40 {
-    display: none; }
+    width: 428px;
+    top: 620px;
+    left: 1127px;
+    z-index: 1; }
   .slide-10 .slide-10-img-41 {
-    display: none; }
+    bottom: 92px;
+    right: 220px;
+    height: 130px; }
+  .slide-10 .slide-10-img-42 {
+    bottom: 474px;
+    width: 28px;
+    left: -29px;
+    height: 145px; }
   .slide-10 .slide-10-img-43 {
-    display: none; }
+    bottom: 474px;
+    width: 28px;
+    left: 96px;
+    height: 133px; }
   .slide-10 .slide-10-img-44 {
     width: 145px;
     top: 910px;
     right: -341px; }
+  .slide-10 .slide-10-img-45 {
+    width: 610px;
+    bottom: 40px;
+    left: -180px; }
 
 .slide-11 {
   height: 1080px;
