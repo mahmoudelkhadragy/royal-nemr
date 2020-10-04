@@ -132,6 +132,48 @@ section.has-light-background, section.has-light-background h1, section.has-light
   animation-name: text-fade-in;
   animation-duration: 16s; }
 
+.slide-1-1 a {
+  position: initial; }
+  .slide-1-1 a img {
+    position: relative;
+    width: 9%; }
+
+.slide-1-1 .st-cont {
+  bottom: -760px;
+  left: 150px; }
+
+.slide-1-1 .nd-cont {
+  top: 680px;
+  left: 110px; }
+
+.slide-1-1 .rd-cont {
+  bottom: -760px;
+  left: 70px; }
+
+.slide-1-1 .fourth-cont {
+  top: 680px;
+  left: 30px; }
+
+.slide-1-1 .fifth-cont {
+  left: -10px;
+  bottom: -760px; }
+
+.slide-1-1 .sixth-cont {
+  left: -50px;
+  top: 680px; }
+
+.slide-1-1 .seventh-cont {
+  left: -90px;
+  bottom: -760px; }
+
+.slide-1-1 .eighth-cont {
+  left: -130px;
+  top: 680px; }
+
+.slide-1-1 .ninth-cont {
+  left: -170px;
+  bottom: -760px; }
+
 .slide-2 {
   height: 100%;
   width: 100%; }
