@@ -55,83 +55,134 @@
  *********************************************/
 
 $beewidth:142px;
-$beeright:1581px;
+$beeright:1710px;
 $beetop:21px;
 $hbghight:96px;
-$hbgleft:-133px;
+$hbgleft:220px;
 $hbgtop: 52px;
 $hhight:63px;
-$hleft:-127px;
+$hleft:225px;
 $htop:70px;
 $logowidth: 350px;
-$logoright:-379px;
+$logoright:20px;
 $logotop:-10px;
 $sloganwidth:170px;
-$sloganleft:1360px;
+$sloganleft:1450px;
 $slogantop:59px;
 $controllerwidth:145px;
 $controllertop:910px;
-$singlecontrollerright:-341px;
-$doublecontrollerrightst:-162px;
-$doublecontrollerrightnd:-320px;
-$yct: 0px;
+$singlecontrollerright:30px;
+$doublecontrollerrightst:190px;
+$doublecontrollerrightnd:44px;
+$yct:-759px;
 $ycb: 0px;
+$x: 110;
 @keyframes example-logo {
     from {
-        right: 1871px;
+        right: 470px;
+        opacity: 0;
     }
     to {
         right: -379;
+        opacity: 1;
+    }
+}
+
+@keyframes text-fade-in {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }
 
 .slide-1 {
     a {
+        position: initial;
         img {
             position: relative;
-            width: 12%;
+            width: 9%;
         }
     }
     .st-cont {
-        top: 760px;
+        bottom: -760px;
+        left: 150px;
+        animation-name: text-fade-in;
+        animation-duration: 16s;
     }
     .nd-cont {
         top: 680px;
-        right: 41px;
+        left: 110px;
+        animation-name: text-fade-in;
+        animation-duration: 16s;
     }
     .rd-cont {
-        top: 757px;
-        right: 82px;
+        bottom: -760px;
+        left: 70px;
+        animation-name: text-fade-in;
+        animation-duration: 16s;
     }
     .fourth-cont {
         top: 680px;
-        right: 125px;
+        left: 30px;
+        animation-name: text-fade-in;
+        animation-duration: 16s;
     }
     .fifth-cont {
-        right: 171px;
-        top: 760px;
+        left: -10px;
+        bottom: -760px;
+        animation-name: text-fade-in;
+        animation-duration: 16s;
     }
     .sixth-cont {
-        right: 215px;
+        left: -50px;
         top: 680px;
+        animation-name: text-fade-in;
+        animation-duration: 16s;
     }
     .seventh-cont {
-        right: 260px;
-        top: 760px;
+        left: -90px;
+        bottom: -760px;
+        animation-name: text-fade-in;
+        animation-duration: 16s;
     }
     .eighth-cont {
-        right: -512px;
-        top: 486px;
+        left: -130px;
+        top: 680px;
+        animation-name: text-fade-in;
+        animation-duration: 16s;
     }
     .ninth-cont {
-        right: -465px;
-        top: 565px;
+        left: -170px;
+        bottom: -760px;
+        animation-name: text-fade-in;
+        animation-duration: 16s;
     }
 }
 
 .slide-2 {
-    height: 1080px;
-    width: 1440px;
+    @keyframes s-1-h {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 570px;
+        }
+    }
+    @keyframes s-1-h-bg {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 610px;
+        }
+    }
+    height: 100%;
+    width: 100%;
     img {
         position: absolute;
     }
@@ -147,6 +198,8 @@ $ycb: 0px;
         height: $hbghight;
         left: $hbgleft;
         top: $hbgtop;
+        animation-name: s-1-h-bg;
+        animation-duration: 1s;
     }
     .s-2-img-3 {
         width: $sloganwidth;
@@ -162,38 +215,38 @@ $ycb: 0px;
     }
     .s-2-img-5 {
         top: 180px;
-        right: 254px;
-        width: 1320px;
+        right: 543px;
+        width: 1160px;
     }
     .s-2-img-6 {
         width: 202px;
         top: 550px;
-        right: 1241px;
+        right: 1531px;
     }
     .s-2-img-7 {
         width: 880px;
         top: 320px;
-        left: 200px;
+        left: 380px;
     }
     .s-2-img-8 {
         width: 250px;
         top: 360px;
-        right: 814px;
+        right: 715px;
     }
     .s-2-img-9 {
         top: 411px;
-        left: 830px;
+        left: 610px;
         width: 132px;
     }
     .s-2-img-10 {
         top: 563px;
         width: 200px;
-        right: 734px;
+        right: 1034px;
     }
     .s-2-img-11 {
         width: 163px;
         top: 571px;
-        right: 541px;
+        right: 841px;
     }
     .s-2-img-12 {
         width: $controllerwidth;
@@ -204,41 +257,68 @@ $ycb: 0px;
         height: $hhight;
         left: $hleft;
         top: $htop;
+        animation-name: s-1-h;
+        animation-duration: 1s;
     }
     .s-2-img-14 {
-        width: 1240px;
-        top: 220px;
-        right: 317px;
+        width: 1104px;
+        top: 200px;
+        right: 587px;
     }
     .s-2-img-15 {
         width: 400px;
         top: 382px;
-        right: 1140px;
+        right: 1430px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .s-2-img-16 {
-        width: 640px;
+        width: 542px;
         top: 380px;
-        right: -300px;
+        right: 106px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
     }
     .s-2-img-17 {
         width: 390px;
         top: 681px;
-        right: 1147px;
+        right: 1447px;
+        animation-name: text-fade-in;
+        animation-duration: 3s;
     }
     .s-2-img-18 {
-        width: 720px;
+        width: 600px;
         top: 701px;
-        right: -290px;
+        right: 52px;
+        animation-name: text-fade-in;
+        animation-duration: 4s;
     }
     .s-2-img-19 {
         top: 979px;
-        right: 241px;
+        height: 20px;
+        right: 711px;
     }
 }
 
 .slide-3 {
-    height: 1080px;
-    width: 1440px;
+    @keyframes s-2-h {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 810px;
+        }
+    }
+    @keyframes s-2-h-bg {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 850px;
+        }
+    }
+    height: 100%;
+    width: 100%;
     img {
         position: absolute;
     }
@@ -254,6 +334,8 @@ $ycb: 0px;
         height: $hbghight;
         top: $hbgtop;
         left: $hbgleft;
+        animation-name: s-2-h-bg;
+        animation-duration: 1s;
     }
     .rd-slide-img-3 {
         width: $sloganwidth;
@@ -270,73 +352,91 @@ $ycb: 0px;
     .rd-slide-img-5 {
         width: 250px;
         top: 230px;
-        right: 1010px;
+        right: 1010+330px;
     }
     .rd-slide-img-6 {
         width: 250px;
         top: 345px;
-        right: 1215px;
+        right: 1215+330px;
     }
     .rd-slide-img-7 {
         width: 250px;
         top: 345px;
-        right: 807px;
+        right: 807+330px;
     }
     .rd-slide-img-8 {
         width: 250px;
         top: 465px;
-        right: 1010px;
+        right: 1010+330px;
     }
     .rd-slide-img-9 {
         width: 250px;
         top: 578px;
-        right: 1215px;
+        right: 1215+330px;
     }
     .rd-slide-img-10 {
         width: 250px;
         top: 578px;
-        right: 805px;
+        right: 805+330px;
     }
     .rd-slide-img-11 {
         width: 250px;
-        right: 1010px;
+        right: 1010+330px;
         top: 700px;
     }
     .rd-slide-img-12 {
-        width: 440px;
-        top: 440px;
+        width: 400px;
+        left: 890px;
+        top: 390px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
     }
     .rd-slide-img-13 {
-        top: 540px;
-        width: 970px;
+        top: 500px;
+        width: 880px;
+        left: 890px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
     }
     .rd-slide-img-14 {
-        top: 610px;
-        right: 140px;
+        top: 550px;
+        left: 890px;
+        right: 380px;
         width: 580px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
     }
     .rd-slide-img-15 {
-        width: 950px;
-        top: 700px;
+        width: 930px;
+        left: 890px;
+        top: 630px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
     }
     .rd-slide-img-16 {
-        top: 620px;
+        top: 560px;
+        left: 950px;
         width: 500px;
-        right: 162px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
     }
     .rd-slide-img-17 {
-        top: 712px;
-        width: 870px;
-        right: -209px;
+        top: 642px;
+        width: 861px;
+        left: 950px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
     }
     .rd-slide-img-18 {
         left: $hleft;
         height: $hhight;
         top: $htop;
+        animation-name: s-2-h;
+        animation-duration: 1s;
     }
     .rd-slide-img-19 {
         top: 934px;
-        right: 1045px;
+        right: 1365px;
         width: 180px;
     }
     .rd-slide-img-20 {
@@ -353,8 +453,24 @@ $ycb: 0px;
 }
 
 .slide-4 {
-    height: 1080px;
-    width: 1440px;
+    @keyframes s-4-h {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 820px;
+        }
+    }
+    @keyframes s-4-h-bg {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 870px;
+        }
+    }
+    height: 100%;
+    width: 100%;
     img {
         position: absolute;
     }
@@ -370,11 +486,15 @@ $ycb: 0px;
         height: $hbghight;
         top: $hbgtop;
         left: $hbgleft;
+        animation-name: s-4-h-bg;
+        animation-duration: 1s;
     }
     .slide-4-img-3 {
         left: $hleft;
         height: $hhight;
         top: $htop;
+        animation-name: s-4-h;
+        animation-duration: 1s;
     }
     .slide-4-img-4 {
         width: $sloganwidth;
@@ -393,71 +513,81 @@ $ycb: 0px;
             height: 0px;
         }
         to {
-            height: 620px;
+            height: 560px;
         }
     }
     .slide-4-img-6 {
-        width: 800px;
-        right: 940px;
-        bottom: 237px;
-        height: 620px;
+        width: 680px;
+        right: 1170px;
+        bottom: 167px;
+        height: 560px;
         animation-name: example-img-6;
         animation-duration: 1s;
     }
     .slide-4-img-7 {
         top: 240px;
         height: 600px;
-        right: 861px;
+        right: 800px;
     }
     .slide-4-img-8 {
         height: 125px;
         top: 177px;
-        left: 590px;
+        left: 750px;
     }
     .slide-4-img-9 {
         height: 125px;
         top: 318px;
-        left: 590px;
+        left: 750px;
     }
     .slide-4-img-10 {
         height: 125px;
         top: 476px;
-        left: 590px;
+        left: 750px;
     }
     .slide-4-img-11 {
         height: 125px;
         top: 625px;
-        left: 590px;
+        left: 750px;
     }
     .slide-4-img-12 {
         height: 125px;
         top: 776px;
-        left: 590px;
+        left: 750px;
     }
     .slide-4-img-13 {
-        width: 640px;
+        width: 570px;
         top: 228px;
-        left: 905px;
+        left: 1127px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
     }
     .slide-4-img-14 {
-        width: 640px;
+        width: 570px;
         top: 328px;
-        left: 905px;
+        left: 1127px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
     }
     .slide-4-img-15 {
-        width: 640px;
+        width: 570px;
         top: 488px;
-        left: 905px;
+        left: 1127px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
     }
     .slide-4-img-16 {
-        width: 640px;
+        width: 570px;
         top: 618px;
-        left: 905px;
+        left: 1127px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
     }
     .slide-4-img-17 {
-        width: 640px;
+        width: 570px;
         top: 778px;
-        left: 905px;
+        left: 1127px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
     }
     .slide-4-img-18 {
         width: $controllerwidth;
@@ -472,9 +602,25 @@ $ycb: 0px;
 }
 
 .slide-5 {
+    @keyframes s-5-h {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 1000px;
+        }
+    }
+    @keyframes s-5-h-bg {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 1050px;
+        }
+    }
     $cellwdth: 400px;
-    height: 1080px;
-    width: 1440px;
+    height: 100%;
+    width: 100%;
     img {
         position: absolute;
     }
@@ -490,6 +636,8 @@ $ycb: 0px;
         top: $hbgtop;
         left: $hbgleft;
         height: $hbghight;
+        animation-name: s-5-h-bg;
+        animation-duration: 1s;
     }
     .slide-5-img-3 {
         top: $slogantop;
@@ -574,8 +722,9 @@ $ycb: 0px;
         right: 480px;
     }
     .slide-5-img-19 {
-        top: 962px;
-        right: 230px;
+        top: 964px;
+        right: 570px;
+        height: 55px;
     }
     .slide-5-img-20 {
         width: $controllerwidth;
@@ -586,12 +735,30 @@ $ycb: 0px;
         height: ($hhight - 10px);
         left: $hleft;
         top: $htop;
+        animation-name: s-5-h;
+        animation-duration: 1s;
     }
 }
 
 .slide-6 {
-    height: 1080px;
-    width: 1440px;
+    @keyframes s-6-h {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 660px;
+        }
+    }
+    @keyframes s-6-h-bg {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 690px;
+        }
+    }
+    height: 100%;
+    width: 100%;
     img {
         position: absolute;
     }
@@ -607,11 +774,15 @@ $ycb: 0px;
         top: $hbgtop;
         left: $hbgleft;
         height: $hbghight;
+        animation-name: s-6-h-bg;
+        animation-duration: 1s;
     }
     .slide-6-img-3 {
         height: $hhight;
         left: $hleft;
         top: $htop;
+        animation-name: s-6-h;
+        animation-duration: 1s;
     }
     .slide-6-img-4 {
         top: $slogantop;
@@ -627,64 +798,78 @@ $ycb: 0px;
     }
     @keyframes slide-in-s6-img-6 {
         from {
-            left: -634px;
+            left: -300px;
         }
         to {
-            left: -230px;
+            left: 100px;
         }
     }
     .slide-6-img-6 {
-        width: 300px;
+        width: 270px;
         top: 270px;
-        left: -230px;
+        left: 100px;
         animation-name: slide-in-s6-img-6;
-        animation-duration: 1s;
+        animation-duration: 2s;
     }
     .slide-6-img-7 {
         width: 300px;
         top: 600px;
-        left: -230px;
+        left: 100px;
         animation-name: slide-in-s6-img-6;
-        animation-duration: 1s;
+        animation-duration: 2s;
     }
     .slide-6-img-8 {
         top: 670px;
-        right: 20px;
+        height: 93px;
+        left: 330px;
     }
     .slide-6-img-9 {
         top: 520px;
-        right: 20px;
+        height: 88px;
+        left: 330px;
     }
     .slide-6-img-10 {
         top: 400px;
-        right: 20px;
+        left: 330px;
+        height: 99px;
     }
     .slide-6-img-11 {
         top: 246px;
-        right: 20px;
+        left: 340px;
+        height: 125px;
     }
     .slide-6-img-12 {
         bottom: 18px;
-        left: 10px;
+        left: 210px;
         height: 100px;
     }
     .slide-6-img-13 {
         top: 680px;
-        left: 92px;
+        left: 370px;
+        height: 66px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
     }
     .slide-6-img-14 {
         top: 255px;
-        left: 92px;
-        width: 1280px;
+        left: 370px;
+        height: 108px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
     }
     .slide-6-img-15 {
-        top: 405px;
-        right: -20px;
+        top: 411px;
+        left: 370px;
+        height: 78px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
     }
     .slide-6-img-16 {
-        left: 92px;
+        left: 370px;
         width: 1290px;
-        top: 526px;
+        top: 534px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
     }
     .slide-6-img-17 {
         width: $controllerwidth;
@@ -694,6 +879,22 @@ $ycb: 0px;
 }
 
 .slide-7 {
+    @keyframes s-7-h {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 1170px;
+        }
+    }
+    @keyframes s-7-h-bg {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 1200px;
+        }
+    }
     height: 100%;
     width: 100%;
     img {
@@ -711,11 +912,15 @@ $ycb: 0px;
         top: $hbgtop;
         left: $hbgleft;
         height: $hbghight;
+        animation-name: s-7-h-bg;
+        animation-duration: 1s;
     }
     .slide-7-img-3 {
         height: $hhight;
         left: $hleft;
         top: $htop;
+        animation-name: s-7-h;
+        animation-duration: 1s;
     }
     .slide-7-img-4 {
         top: $slogantop;
@@ -741,76 +946,87 @@ $ycb: 0px;
         width: 435px;
         bottom: 373px;
         height: 287px;
-        right: -60px;
+        right: 339px;
         animation-name: example;
         animation-duration: 1s;
     }
     .slide-7-img-6 {
         top: 200px;
         width: 59px;
-        left: -192px;
+        left: 98px;
         animation-name: rotateinplace;
         animation-duration: 250ms;
     }
     .slide-7-img-7 {
         top: 790px;
-        left: 40px;
+        left: 210px;
+        width: 1480px;
     }
     .slide-7-img-8 {
         top: 210px;
-        left: -120px;
+        left: 170px;
         height: 42px;
         z-index: 1;
     }
     .slide-7-img-9 {
         width: 180px;
-        right: 1427px;
+        right: 1616px;
         top: 250px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
     }
     .slide-7-img-10 {
         top: 300px;
         width: 600px;
-        left: -110px;
+        left: 180px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
     }
     .slide-7-img-11 {
         top: 800px;
-        right: 64px;
+        right: 304px;
         width: 1318px;
+        animation-name: text-fade-in;
+        animation-duration: 5s;
     }
     .slide-7-img-12 {
-        width: 40px;
-        top: 498px;
-        left: -140px;
+        width: 41px;
+        top: 496px;
+        left: 120px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
     }
     .slide-7-img-13 {
         top: 495px;
         width: 700px;
-        right: 830px;
+        right: 1050px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
     }
     .slide-7-img-14 {
         top: 185px;
-        right: 788px;
+        left: 170px;
         width: 775px;
     }
     .slide-7-img-15 {
         top: 280px;
         height: 55px;
-        right: -98px;
+        right: 300px;
     }
     .slide-7-img-16 {
         width: 610px;
         top: 350px;
-        left: 940px;
+        left: 1020px;
     }
     .slide-7-img-17 {
         width: 500px;
         top: 680px;
-        right: -89px;
+        right: 306px;
     }
     .slide-7-img-18 {
         width: 437px;
         top: 361px;
-        right: -62px;
+        right: 338px;
     }
     @keyframes example {
         from {
@@ -824,19 +1040,19 @@ $ycb: 0px;
         width: 435px;
         bottom: 373px;
         height: 287px;
-        right: -60px;
+        right: 339px;
         animation-name: example;
-        animation-duration: 1s;
+        animation-duration: 5s;
     }
     .slide-7-img-20 {
         width: 417px;
         top: 470px;
-        right: -50px;
+        right: 350px;
     }
     .slide-7-img-21 {
         width: 790px;
         top: 440px;
-        right: 760px;
+        right: 960px;
     }
     .slide-7-img-22 {
         top: 980px;
@@ -844,11 +1060,11 @@ $ycb: 0px;
     }
     .slide-7-img-23 {
         top: 980px;
-        left: 43px;
+        left: 521px;
     }
     .slide-7-img-24 {
         top: 980px;
-        left: 350px;
+        left: 830px;
     }
     .slide-7-img-25 {
         width: $controllerwidth;
@@ -863,8 +1079,24 @@ $ycb: 0px;
 }
 
 .slide-8 {
-    height: 1080px;
-    width: 1440px;
+    @keyframes s-8-h {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 1195px;
+        }
+    }
+    @keyframes s-8-h-bg {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 1215;
+        }
+    }
+    height: 100%;
+    width: 100%;
     img {
         position: absolute;
     }
@@ -880,11 +1112,15 @@ $ycb: 0px;
         top: $hbgtop;
         left: $hbgleft;
         height: $hbghight;
+        animation-name: s-8-h-bg;
+        animation-duration: 1s;
     }
     .slide-8-img-3 {
         height: $hhight;
         left: $hleft;
         top: $htop;
+        animation-name: s-8-h;
+        animation-duration: 1s;
     }
     .slide-8-img-4 {
         top: $slogantop;
@@ -899,58 +1135,59 @@ $ycb: 0px;
         animation-duration: 1s;
     }
     .slide-8-img-6 {
-        left: -60px;
+        left: -60+200px;
         top: 322px;
         height: 65px;
     }
     .slide-8-img-7 {
         width: 730px;
-        left: -120px;
+        left: -120+200px;
         bottom: 290px;
     }
     .slide-8-img-8 {
         width: 633px;
         bottom: 291px;
-        left: -67px;
+        left: -67+200px;
     }
     .slide-8-img-9 {
-        left: -155px;
+        left: 45px;
         top: 181px;
+        height: 120px;
     }
     .slide-8-img-10 {
-        left: -72px;
+        left: -72+200px;
         width: 110px;
         bottom: 240px;
     }
     .slide-8-img-11 {
-        left: 109px;
+        left: 109+200px;
         width: 110px;
         bottom: 236px;
     }
     .slide-8-img-12 {
-        left: 290px;
+        left: 290+200px;
         width: 110px;
         bottom: 239px;
     }
     .slide-8-img-13 {
-        left: 460px;
+        left: 460+200px;
         width: 110px;
         bottom: 260px;
     }
     .slide-8-img-14 {
-        left: -94px;
+        left: -94+200px;
         top: 191px;
         height: 100px;
     }
     .slide-8-img-15 {
         bottom: 27px;
-        left: -197px;
+        left: -197+400px;
         height: 50px;
     }
     .slide-8-img-16 {
         width: 30px;
         top: 640px;
-        left: -57px;
+        left: -57+200px;
     }
     @keyframes expand-s8-img-17 {
         from {
@@ -962,15 +1199,15 @@ $ycb: 0px;
     }
     .slide-8-img-17 {
         width: 47px;
-        left: -14px;
+        left: -14+200px;
         bottom: 290px;
         animation-name: expand-s8-img-17;
-        animation-duration: 1s;
+        animation-duration: 5s;
     }
     .slide-8-img-18 {
         width: 40px;
         top: 589px;
-        left: -11px;
+        left: -11+200px;
     }
     @keyframes expand-s8-img-19 {
         from {
@@ -983,14 +1220,14 @@ $ycb: 0px;
     .slide-8-img-19 {
         width: 47px;
         bottom: 290px;
-        left: 165px;
+        left: 165+200px;
         animation-name: expand-s8-img-19;
-        animation-duration: 1s;
+        animation-duration: 5s;
     }
     .slide-8-img-20 {
         width: 40px;
         top: 649px;
-        left: 295px;
+        left: 295+200px;
     }
     @keyframes expand-s8-img-21 {
         from {
@@ -1003,14 +1240,14 @@ $ycb: 0px;
     .slide-8-img-21 {
         width: 47px;
         bottom: 290px;
-        left: 345px;
+        left: 345+200px;
         animation-name: expand-s8-img-21;
-        animation-duration: 1s;
+        animation-duration: 5s;
     }
     .slide-8-img-22 {
         width: 40px;
         top: 649px;
-        left: 348px;
+        left: 348+200px;
     }
     @keyframes expand-s8-img-23 {
         from {
@@ -1023,14 +1260,14 @@ $ycb: 0px;
     .slide-8-img-23 {
         width: 47px;
         bottom: 290px;
-        left: 518px;
+        left: 518+200px;
         animation-name: expand-s8-img-23;
-        animation-duration: 1s;
+        animation-duration: 5s;
     }
     .slide-8-img-24 {
         width: 40px;
         top: 652px;
-        left: 522px;
+        left: 522+200px;
     }
     @keyframes expand-s8-img-25 {
         from {
@@ -1043,9 +1280,9 @@ $ycb: 0px;
     .slide-8-img-25 {
         width: 47px;
         bottom: 290px;
-        left: -66px;
+        left: -66+200px;
         animation-name: expand-s8-img-25;
-        animation-duration: 1s;
+        animation-duration: 5s;
     }
     @keyframes expand-s8-img-26 {
         from {
@@ -1058,9 +1295,9 @@ $ycb: 0px;
     .slide-8-img-26 {
         width: 47px;
         bottom: 290px;
-        left: 114px;
+        left: 114+200px;
         animation-name: expand-s8-img-26;
-        animation-duration: 1s;
+        animation-duration: 5s;
     }
     @keyframes expand-s8-img-27 {
         from {
@@ -1073,14 +1310,14 @@ $ycb: 0px;
     .slide-8-img-27 {
         width: 47px;
         bottom: 290px;
-        left: 290px;
+        left: 290+200px;
         animation-name: expand-s8-img-27;
-        animation-duration: 1s;
+        animation-duration: 5s;
     }
     .slide-8-img-28 {
         width: 25px;
         top: 646px;
-        left: 478px;
+        left: 478+200px;
     }
     @keyframes expand-s8-img-29 {
         from {
@@ -1093,44 +1330,60 @@ $ycb: 0px;
     .slide-8-img-29 {
         width: 47px;
         bottom: 290px;
-        left: 467px;
+        left: 467+200px;
         animation-name: expand-s8-img-29;
-        animation-duration: 1s;
+        animation-duration: 5s;
     }
     .slide-8-img-30 {
         width: 40px;
         top: 650px;
-        left: 117px;
+        left: 117+200px;
     }
     .slide-8-img-31 {
         height: 110px;
         top: 680px;
-        left: 780px;
+        left: 780+200px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-8-img-32 {
         height: 82px;
         top: 790px;
-        left: 770px;
+        left: 770+200px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-8-img-33 {
         width: 40px;
         top: 660px;
-        left: 169px;
+        left: 169+200px;
     }
     .slide-8-img-34 {
-        left: 150px;
+        left: 430px;
         height: 60px;
         bottom: 130px;
     }
     .slide-8-img-35 {
-        left: 119px;
+        left: 400px;
         height: 54px;
         bottom: 136px;
     }
+    @keyframes s-8-img-36-fade-in {
+        from {
+            right: -1000px;
+            opacity: 0;
+        }
+        to {
+            right: 170;
+            opacity: 1;
+        }
+    }
     .slide-8-img-36 {
-        height: 350px;
-        right: -230px;
-        bottom: 360px;
+        height: 343px;
+        right: 170px;
+        bottom: 370px;
+        animation-name: s-8-img-36-fade-in;
+        animation-duration: 2s;
     }
     .slide-8-img-37 {
         width: $controllerwidth;
@@ -1145,6 +1398,22 @@ $ycb: 0px;
 }
 
 .slide-9 {
+    @keyframes s-9-h {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 1120px;
+        }
+    }
+    @keyframes s-9-h-bg {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 1140px;
+        }
+    }
     height: 1080px;
     width: 1440px;
     img {
@@ -1162,11 +1431,15 @@ $ycb: 0px;
         top: $hbgtop;
         left: $hbgleft;
         height: $hbghight;
+        animation-name: s-9-h-bg;
+        animation-duration: 1s;
     }
     .slide-9-img-3 {
         height: $hhight;
         left: $hleft;
         top: $htop;
+        animation-name: s-9-h;
+        animation-duration: 1s;
     }
     .slide-9-img-4 {
         top: $slogantop;
@@ -1183,56 +1456,79 @@ $ycb: 0px;
     .slide-9-img-6-1 {
         width: 35px;
         top: 300px;
-        right: 1539px;
+        left: 80px;
     }
     .slide-9-img-6-2 {
         width: 35px;
         top: 450px;
-        right: 1539px;
+        left: 80px;
     }
     .slide-9-img-6-3 {
         width: 35px;
         top: 600px;
-        right: 1539px;
+        left: 80px;
     }
     .slide-9-img-6-4 {
         width: 35px;
         top: 750px;
-        right: 1539px;
+        left: 80px;
     }
     .slide-9-img-7 {
         height: 83px;
-        left: -90px;
+        left: 125px;
         top: 300px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-9-img-8 {
         height: 83px;
-        left: -90px;
+        left: 125px;
         top: 450px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-9-img-9 {
         height: 83px;
-        left: -90px;
+        left: 125px;
         top: 600px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-9-img-10 {
         height: 83px;
-        left: -90px;
+        left: 125px;
         top: 750px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-9-img-11 {
         width: 230px;
-        right: -18px;
+        right: 303px;
         top: 505px;
+        animation-name: text-fade-in;
+        animation-duration: 2s;
+    }
+    @keyframes s-9-img-12-fade-in {
+        from {
+            right: -1000px;
+            opacity: 0;
+        }
+        to {
+            right: -40;
+            opacity: 1;
+        }
     }
     .slide-9-img-12 {
         width: 450px;
-        right: -310px;
+        right: 10px;
         top: 250px;
+        animation-name: s-9-img-12-fade-in;
+        animation-duration: 2s;
     }
     .slide-9-img-13 {
-        top: 928px;
-        right: 220px;
+        top: 933px;
+        right: 520px;
+        height: 90px;
     }
     .slide-9-img-14 {
         width: $controllerwidth;
@@ -1242,8 +1538,40 @@ $ycb: 0px;
 }
 
 .slide-10 {
-    height: 1080px;
-    width: 1440px;
+    @keyframes s-10-h {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 1260px;
+        }
+    }
+    @keyframes s-10-h-bg {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 1280px;
+        }
+    }
+    @keyframes expand-graph-top {
+        from {
+            height: 0px;
+        }
+        to {
+            height: 172px;
+        }
+    }
+    @keyframes expand-graph-bottom {
+        from {
+            height: 0px;
+        }
+        to {
+            height: 165px;
+        }
+    }
+    height: 100%;
+    width: 100%;
     img {
         position: absolute;
     }
@@ -1256,14 +1584,18 @@ $ycb: 0px;
         top: $beetop;
     }
     .slide-10-img-2 {
-        top: $hbgtop;
+        top: $hbgtop+3px;
         left: $hbgleft;
-        height: $hbghight;
+        height: $hbghight - 9px-10px;
+        animation-name: s-10-h-bg;
+        animation-duration: 1s;
     }
     .slide-10-img-3 {
-        height: ($hhight - 19px);
+        height: ($hhight - 22px - 4px);
         left: $hleft;
         top: $htop + 9px;
+        animation-name: s-10-h;
+        animation-duration: 1s;
     }
     .slide-10-img-4 {
         top: $slogantop;
@@ -1280,206 +1612,210 @@ $ycb: 0px;
     .slide-10-img-6 {
         height: 60px;
         top: 210px;
-        left: 70px;
+        left: 70+100px;
     }
     .slide-10-img-7 {
         width: 230px;
         top: 260px;
-        left: 840px;
+        left: 840+100px;
     }
     .slide-10-img-8 {
         width: 218px;
         top: 290px;
-        left: 840px;
+        left: 840+100px;
     }
     .slide-10-img-9 {
         width: 1000px;
         top: 350px;
-        left: -50px;
+        left: -50+100px;
     }
     .slide-10-img-10 {
         top: 351px;
-        left: -30px;
+        left: -30+100px;
         width: 944px;
     }
     .slide-10-img-11 {
         bottom: 474px;
         width: 28px;
-        left: 348px;
+        left: 348+100px;
     }
     .slide-10-img-12 {
         bottom: 474px;
         width: 28px;
-        left: 258px;
+        left: 258+100px;
     }
     .slide-10-img-13 {
         width: 76px;
         top: 580px;
-        left: 210px;
+        left: 210+100px;
     }
     .slide-10-img-14 {
         width: 76px;
         top: 580px;
-        left: 346px;
+        left: 346+100px;
     }
     .slide-10-img-15 {
         width: 121px;
         top: 573px;
-        left: 442px;
+        left: 442+100px;
     }
     .slide-10-img-16 {
-        top: 566px;
-        width: 28px;
-        left: 7px;
+        bottom: 476px;
+        width: 911px;
+        left: 69px;
+        animation-name: expand-graph-top;
+        animation-duration: 5s;
     }
     .slide-10-img-17 {
-        width: 25px;
-        top: 483px;
-        left: -27px;
+        width: 909px;
+        top: 565px;
+        left: 106px;
+        animation-name: expand-graph-bottom;
+        animation-duration: 5s;
         z-index: 1;
     }
     .slide-10-img-18 {
-        width: 27px;
-        top: 483px;
-        left: 97px;
+        width: 931px;
+        top: 446px;
+        left: 76px;
         z-index: 1;
     }
     .slide-10-img-19 {
         width: 27px;
         top: 583px;
-        left: 6px;
+        left: 6+100px;
         z-index: 1;
     }
     .slide-10-img-20 {
         top: 566px;
         width: 28px;
-        left: 133px;
+        left: 133+100px;
     }
     .slide-10-img-21 {
         top: 551px;
         width: 28px;
-        left: 222px;
+        left: 222+100px;
     }
     .slide-10-img-22 {
         width: 26px;
         top: 531px;
-        left: 222px;
+        left: 222+100px;
         z-index: 1;
     }
     .slide-10-img-23 {
         bottom: 474px;
         width: 28px;
-        left: 384px;
+        left: 384+100px;
     }
     .slide-10-img-24 {
         bottom: 474px;
         width: 28px;
-        left: 474px;
+        left: 474+100px;
     }
     .slide-10-img-25 {
         bottom: 474px;
         width: 28px;
-        left: 510px;
+        left: 510+100px;
     }
     .slide-10-img-26 {
         bottom: 474px;
         width: 28px;
-        left: 725px;
+        left: 725+100px;
     }
     .slide-10-img-27 {
         top: 566px;
         width: 28px;
-        left: 760px;
+        left: 760+100px;
     }
     .slide-10-img-28 {
         bottom: 474px;
         width: 28px;
-        left: 600px;
+        left: 600+100px;
     }
     .slide-10-img-29 {
         top: 565px;
         width: 28px;
-        left: 635px;
+        left: 635+100px;
     }
     .slide-10-img-30 {
         bottom: 474px;
         width: 28px;
-        left: 851px;
+        left: 851+100px;
     }
     .slide-10-img-31 {
         top: 566px;
         width: 28px;
-        left: 887px;
+        left: 887+100px;
     }
     .slide-10-img-32 {
         width: 108px;
         top: 756px;
-        left: 716px;
+        left: 716+100px;
         z-index: 1;
     }
     .slide-10-img-33 {
         width: 108px;
         top: 756px;
-        left: 592px;
+        left: 592+100px;
         z-index: 1;
     }
     .slide-10-img-34 {
         width: 108px;
         top: 756px;
-        left: 842px;
+        left: 842+100px;
         z-index: 1;
     }
     .slide-10-img-35 {
         width: 108px;
         top: 756px;
-        left: 94px;
+        left: 94+100px;
         z-index: 1;
     }
     .slide-10-img-36 {
         width: 108px;
         top: 756px;
-        left: -33px;
+        left: -33+100px;
         z-index: 1;
     }
     .slide-10-img-37 {
         width: 128px;
         top: 386px;
-        left: 817px;
+        left: 817+100px;
         z-index: 1;
     }
     .slide-10-img-38 {
         width: 428px;
         top: 310px;
-        left: 1127px;
+        left: 1127+100px;
         z-index: 1;
     }
     .slide-10-img-39 {
         width: 328px;
         top: 400px;
-        left: 1127px;
+        left: 1127+100px;
         z-index: 1;
     }
     .slide-10-img-40 {
         width: 428px;
         top: 620px;
-        left: 1127px;
+        left: 1127+100px;
         z-index: 1;
     }
     .slide-10-img-41 {
         bottom: 92px;
-        right: 220px;
+        right: 510px;
         height: 130px;
     }
     .slide-10-img-42 {
         bottom: 474px;
         width: 28px;
-        left: -29px;
+        left: -29+100px;
         height: 145px;
     }
     .slide-10-img-43 {
         bottom: 474px;
         width: 28px;
-        left: 96px;
+        left: 96+100px;
         height: 133px;
     }
     .slide-10-img-44 {
@@ -1490,13 +1826,29 @@ $ycb: 0px;
     .slide-10-img-45 {
         width: 610px;
         bottom: 40px;
-        left: -180px;
+        left: 80px;
     }
 }
 
 .slide-11 {
-    height: 1080px;
-    width: 1440px;
+    @keyframes s-11-h {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 800px;
+        }
+    }
+    @keyframes s-11-h-bg {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 830px;
+        }
+    }
+    height: 100%;
+    width: 100%;
     img {
         position: absolute;
     }
@@ -1512,11 +1864,15 @@ $ycb: 0px;
         height: $hbghight;
         left: $hbgleft;
         top: $hbgtop;
+        animation-name: s-11-h-bg;
+        animation-duration: 1s;
     }
     .slide-11-img-3 {
         height: $hhight;
         left: $hleft;
         top: $htop;
+        animation-name: s-11-h;
+        animation-duration: 1s;
     }
     .slide-11-img-4 {
         top: $slogantop;
@@ -1531,56 +1887,58 @@ $ycb: 0px;
         animation-duration: 1s;
     }
     .slide-11-img-6 {
-        left: -135px;
+        left: 115px;
         top: 180px;
         width: 870px;
     }
     .slide-11-img-7 {
         top: 205px;
-        left: -85px;
+        left: 165px;
         width: 800px;
     }
     .slide-11-img-8 {
         top: 330px;
-        left: -115px;
+        height: 140px;
+        left: 125px;
     }
     .slide-11-img-9 {
         top: 344px;
-        left: -68px;
+        left: 172px;
         width: 1300px;
     }
     .slide-11-img-10 {
         top: 424px;
-        left: -68px;
+        left: 172px;
         width: 888px;
     }
     .slide-11-img-11 {
         top: 520px;
         width: 900px;
-        left: -140px;
+        left: 110px;
     }
     .slide-11-img-12 {
         top: 620px;
-        left: -20px;
+        height: 220px;
+        left: 122px;
     }
     .slide-11-img-13 {
-        top: 640px;
-        right: 990px;
-        width: 451px;
+        top: 643px;
+        right: 1262px;
+        width: 519px;
     }
     .slide-11-img-14 {
-        bottom: 211px;
-        left: 553px;
-        width: 816px;
+        top: 663px;
+        left: 771px;
+        width: 902px;
     }
     .slide-11-img-15 {
-        top: 706px;
-        right: 110px;
-        width: 1264px;
+        top: 716px;
+        right: 300px;
+        width: 1374px;
     }
     .slide-11-img-16 {
         bottom: 41px;
-        left: -192px;
+        left: 58px;
         height: 25px;
     }
     .slide-11-img-18 {
@@ -1596,8 +1954,24 @@ $ycb: 0px;
 }
 
 .slide-12 {
-    height: 1080px;
-    width: 1440px;
+    @keyframes s-12-h {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 1300px;
+        }
+    }
+    @keyframes s-12-h-bg {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 1350px;
+        }
+    }
+    height: 100%;
+    width: 100%;
     img {
         position: absolute;
     }
@@ -1613,80 +1987,104 @@ $ycb: 0px;
         height: $hbghight + 24;
         left: $hbgleft;
         top: $hbgtop - 13;
+        animation-name: s-12-h-bg;
+        animation-duration: 1s;
     }
     .slide-12-img-3 {
         height: $hhight + 18;
         left: $hleft;
         top: $htop - 13;
+        animation-name: s-12-h;
+        animation-duration: 1s;
     }
     .slide-12-img-4 {
         width: 31px;
         top: 225px;
-        left: -135px;
+        left: -135+200px;
     }
     .slide-12-img-5 {
         top: 228px;
-        right: 650px;
+        left: -90+200px;
         height: 68px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-12-img-6 {
         height: 27px;
-        left: -90px;
+        left: -90+200px;
         top: 314px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-12-img-7 {
         height: 61px;
-        left: -90px;
+        left: -90+200px;
         top: 367px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-12-img-8 {
         height: 27px;
-        left: -90px;
+        left: -90+200px;
         top: 454px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-12-img-9 {
         height: 27px;
-        left: -90px;
+        left: -90+200px;
         top: 504px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-12-img-10 {
         height: 27px;
-        left: -90px;
+        left: -90+200px;
         top: 556px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-12-img-11 {
         height: 27px;
-        left: -90px;
+        left: -90+200px;
         top: 605px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-12-img-12 {
         height: 61px;
-        left: -90px;
+        left: -90+200px;
         top: 656px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-12-img-13 {
         height: 27px;
-        left: -90px;
+        left: -90+200px;
         top: 740px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-12-img-14 {
         height: 61px;
-        left: -90px;
+        left: -90+200px;
         top: 786px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-12-img-15 {
         width: 700px;
         top: 100px;
-        right: -10px;
+        right: -10+200px;
     }
     .slide-12-img-16 {
         width: 290px;
         top: 330px;
-        right: -180px;
+        right: -180+200px;
     }
     .slide-12-img-17 {
         width: 647px;
-        right: -90px;
+        right: -90+200px;
         top: 681px;
     }
     .slide-12-img-18 {
@@ -1703,6 +2101,22 @@ $ycb: 0px;
 }
 
 .slide-13 {
+    @keyframes s-13-h {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 800px;
+        }
+    }
+    @keyframes s-13-h-bg {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 830px;
+        }
+    }
     height: 1080px;
     width: 1440px;
     img {
@@ -1720,86 +2134,104 @@ $ycb: 0px;
         height: $hbghight;
         left: $hbgleft;
         top: $hbgtop;
+        animation-name: s-13-h-bg;
+        animation-duration: 1s;
     }
     .slide-13-img-3 {
         height: $hhight - 8;
         left: $hleft;
         top: $htop;
+        animation-name: s-13-h;
+        animation-duration: 1s;
     }
     .slide-13-img-6 {
         width: 31px;
         top: 215px;
-        left: -135px;
+        left: -135+200px;
     }
     .slide-13-img-7 {
         height: 27px;
-        left: -90px;
+        left: -90+200px;
         top: 216px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-13-img-8 {
         height: 27px;
-        left: -90px;
+        left: -90+200px;
         top: 261px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-13-img-9 {
         height: 27px;
-        left: -90px;
+        left: -90+200px;
         top: 317px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-13-img-10 {
         height: 27px;
-        left: -90px;
+        left: -90+200px;
         top: 367px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-13-img-11 {
         height: 27px;
-        left: -90px;
+        left: -90+200px;
         top: 417px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-13-img-12 {
         height: 72px;
-        left: -90px;
+        left: -90+200px;
         top: 466px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-13-img-13 {
         height: 27px;
-        left: -90px;
+        left: -90+200px;
         top: 566px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-13-img-14 {
         width: 320px;
         top: 250px;
-        right: 210px;
+        right: 510px;
     }
     .slide-13-img-15 {
         width: 440px;
         top: 450px;
-        right: -280px;
+        right: 20px;
     }
     .slide-13-img-16 {
         width: 398px;
         top: 457px;
-        right: -257px;
+        right: 43px;
     }
     .slide-13-img-17 {
         width: 500px;
         bottom: 275px;
-        left: 450px;
+        left: 450+200px;
     }
     .slide-13-img-18 {
         width: 300px;
         bottom: 50px;
-        left: -200px;
+        left: 40px;
     }
     .slide-13-img-19 {
         width: 900px;
         bottom: 46px;
-        left: 200px;
+        left: 200+200px;
     }
     .slide-13-img-20 {
         width: 331px;
         bottom: 50px;
-        right: -60px;
+        right: 250px;
     }
     .slide-13-img-21 {
         width: $controllerwidth;
@@ -1808,13 +2240,17 @@ $ycb: 0px;
     }
     .slide-13-img-22 {
         height: 27px;
-        left: -90px;
+        left: -90+200px;
         top: 615px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-13-img-23 {
         height: 27px;
-        left: -90px;
+        left: -90+200px;
         top: 666px;
+        animation-name: text-fade-in;
+        animation-duration: 1s;
     }
     .slide-13-img-4-10 {
         top: $slogantop;
