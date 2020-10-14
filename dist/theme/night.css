@@ -1365,14 +1365,17 @@ section.has-light-background, section.has-light-background h1, section.has-light
   .slide-10 .slide-10-img-13 {
     width: 86px;
     top: 582px;
+    z-index: 5;
     left: 380px; }
   .slide-10 .slide-10-img-14 {
     width: 86px;
     top: 583px;
+    z-index: 5;
     left: 506px; }
   .slide-10 .slide-10-img-15 {
     width: 140px;
     top: 583px;
+    z-index: 5;
     left: 612px; }
   .slide-10 .slide-10-img-16 {
     bottom: 473px;
@@ -1449,33 +1452,33 @@ section.has-light-background, section.has-light-background h1, section.has-light
   .slide-10 .slide-10-img-32 {
     width: 128px;
     top: 766px;
-    left: 883px;
-    z-index: 1; }
+    z-index: 5;
+    left: 883px; }
   .slide-10 .slide-10-img-33 {
     width: 119px;
     top: 766px;
     left: 761px;
-    z-index: 1; }
+    z-index: 5; }
   .slide-10 .slide-10-img-34 {
     width: 128px;
     top: 766px;
     left: 1019px;
-    z-index: 1; }
+    z-index: 5; }
   .slide-10 .slide-10-img-35 {
     width: 111px;
     top: 760px;
     left: 259px;
-    z-index: 1; }
+    z-index: 5; }
   .slide-10 .slide-10-img-36 {
     width: 124px;
     top: 761px;
     left: 127px;
-    z-index: 1; }
+    z-index: 5; }
   .slide-10 .slide-10-img-37 {
     width: 158px;
     top: 386px;
     left: 964px;
-    z-index: 1; }
+    z-index: 5; }
   .slide-10 .slide-10-img-38 {
     width: 428px;
     top: 310px;
@@ -1494,7 +1497,8 @@ section.has-light-background, section.has-light-background h1, section.has-light
   .slide-10 .slide-10-img-41 {
     bottom: 92px;
     right: 510px;
-    height: 130px; }
+    height: 130px;
+    z-index: 5; }
   .slide-10 .slide-10-img-42 {
     bottom: 474px;
     width: 28px;
